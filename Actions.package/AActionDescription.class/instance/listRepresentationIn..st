@@ -1,4 +1,4 @@
 as yet unclassified
-listRepresentation
+listRepresentationIn: aClass
 
 	self subclassResponsibility
