@@ -1,0 +1,15 @@
+{
+	"category" : "Actions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Shortcuts" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classIndex",
+		"actionIndex" ],
+	"name" : "AActions",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
