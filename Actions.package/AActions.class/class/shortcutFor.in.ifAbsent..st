@@ -1,4 +1,4 @@
-as yet unclassified
+handle shortcuts
 shortcutFor: anAction in: aClass ifAbsent: aBlock
 
 	^ (Shortcuts at: aClass ifAbsent: [^ aBlock value]) 

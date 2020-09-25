@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 install
 
 	Shortcuts := Shortcuts ifNil: [Dictionary new]
