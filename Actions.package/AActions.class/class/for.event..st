@@ -6,5 +6,5 @@ for: anObject event: evt
 	Shortcuts 
 		at: anObject class
 		ifPresent: [:list | list 
-							at: (self keyFrom: evt)  
+							at: (AEventKey from: evt)  
 							ifPresent: [:action | action for: anObject]]

@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"actionPragmas" : "WoC 9/14/2020 21:28",
-		"for:event:" : "WoC 9/15/2020 16:54",
+		"for:event:" : "WoC 9/25/2020 14:32",
 		"install" : "WoC 9/14/2020 22:01",
 		"keyFrom:" : "WoC 9/15/2020 17:07",
 		"open" : "WoC 9/12/2020 00:11",
+		"removeShortcut:in:" : "WoC 9/25/2020 15:49",
 		"shortcutFor:in:" : "WoC 9/21/2020 12:31",
 		"shortcutFor:in:ifAbsent:" : "WoC 9/21/2020 12:26" },
 	"instance" : {
@@ -16,5 +17,6 @@
 		"classIndex" : "WoC 9/12/2020 23:54",
 		"classIndex:" : "WoC 9/13/2020 00:41",
 		"initialize" : "WoC 9/13/2020 00:42",
+		"removeShortcut:" : "WoC 9/25/2020 14:39",
 		"wantsActions" : "WoC 9/21/2020 12:30",
 		"wantsToList:" : "WoC 9/21/2020 12:04" } }
