@@ -1,6 +1,6 @@
 as yet unclassified
 shortcutRepresentationIn: aClass
 
-	| shortcut |
-	shortcut := AActions shortcutFor: self in: aClass ifAbsent: [^ ''].
-	^ '(' , shortcut asString , ')'
+	| shortcuts |
+	shortcuts := AActions shortcutsFor: self in: aClass ifAbsent: [^ ''].
+	^ '(' , ((shortcuts collect: #asString) fold: [:a :b | a , ', ' , b]) , ')'
