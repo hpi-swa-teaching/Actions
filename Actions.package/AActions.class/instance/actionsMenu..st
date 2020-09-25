@@ -1,7 +1,7 @@
 as yet unclassified
 actionsMenu: aMenu
 
-	<foo>
+	<actionsMenu>
 	aMenu addTitle: 'foo'.
 	aMenu addStayUpItemSpecial.
 	

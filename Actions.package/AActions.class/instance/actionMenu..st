@@ -1,4 +1,4 @@
 as yet unclassified
 actionMenu: aMenu
 
-	^ self menu: aMenu for: #(foo)
+	^ self menu: aMenu for: #(actionsMenu)

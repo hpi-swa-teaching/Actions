@@ -4,7 +4,7 @@ buildWith: aToolBuilder
 	| windowSpec enumListSpec mainListSpec |
 	windowSpec := aToolBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Actions Browser';
+		label: 'Shortcut Browser';
 		children: OrderedCollection new.
 	
 	enumListSpec := aToolBuilder pluggableListSpec new
