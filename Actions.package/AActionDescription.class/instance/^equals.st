@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anActionDescription
 
 	self class = anActionDescription class
