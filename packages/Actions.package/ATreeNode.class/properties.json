@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Menus",
-		"Shortcuts" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AActions",
+		"value",
+		"children" ],
+	"name" : "ATreeNode",
 	"pools" : [
 		 ],
 	"super" : "Object",

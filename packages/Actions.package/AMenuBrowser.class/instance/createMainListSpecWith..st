@@ -1,14 +1,15 @@
 toolbuilder
 createMainListSpecWith: aToolBuilder
 
-	^ aToolBuilder pluggableTreeSpec new
+	| mainPanel |
+	mainPanel := aToolBuilder pluggablePanelSpec new
 		model: self;
-		roots: #mainView;
-		hasChildren: #hasChildren:;
-		getChildren: #getChildren:;
-		getSelected: #selectedItem;
-		setSelected: #selectedItem:;
-		getSelectedPath: #selectedPath;
-		setSelectedPath: #selectedPath:;
+		children: OrderedCollection new;
 		frame: (0.25@0 corner: 1@1);
-		yourself
+		yourself.
+		
+	mainPanel children
+		add: (self createButtonPanelSpecWith: aToolBuilder);
+		add: ( self createTreeSpecWith: aToolBuilder).
+	
+	^ mainPanel

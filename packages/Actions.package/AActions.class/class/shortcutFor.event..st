@@ -1,5 +1,5 @@
 as yet unclassified
-for: anObject event: evt
+shortcutFor: anObject event: evt
 
 	evt isKeyboard
 		ifFalse: [^ self].

@@ -1,6 +1,5 @@
-as yet unclassified
+accessing
 mainView
 
 	self tree: Dictionary new.
-	self actions do: [:each | each writeTreeRepresentationInto: self tree].
-	^ self tree keys
+	^(AActions menuFor: self selectedClass) children collect: [:each | each]
