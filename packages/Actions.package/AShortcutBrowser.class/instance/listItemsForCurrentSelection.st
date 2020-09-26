@@ -2,7 +2,7 @@ as yet unclassified
 listItemsForCurrentSelection
 
 	| shortcuts items |
-	shortcuts := self class 
+	shortcuts := AActions
 						shortcutsFor: self selectedAction 
 						in: self selectedClass 
 						ifAbsent: [^ {}]. 

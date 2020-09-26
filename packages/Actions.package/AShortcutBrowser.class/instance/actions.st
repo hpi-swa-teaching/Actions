@@ -4,7 +4,7 @@ actions
 	| method value class |
 	self classIndex = 0
 		ifTrue: [^ {}].
-	method :=  (self class actionPragmas at: self classIndex) method.
+	method :=  (AActions actionPragmas at: self classIndex) method.
 	class := method methodHome theNonMetaClass.
 	value := method valueWithReceiver: class arguments: {}.
 	^ (value isCollection

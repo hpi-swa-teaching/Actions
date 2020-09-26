@@ -6,9 +6,10 @@
 		"Shortcuts" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AActions",
+		"classIndex",
+		"actionIndex" ],
+	"name" : "AShortcutBrowser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }
