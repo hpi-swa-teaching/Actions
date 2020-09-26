@@ -1,10 +1,10 @@
-as yet unclassified
+toolbuilder
 buildWith: aToolBuilder
 
 	| windowSpec enumListSpec mainListSpec |
 	windowSpec := aToolBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Shortcut Browser';
+		label: #windowLabel;
 		children: OrderedCollection new.
 	
 	enumListSpec := aToolBuilder pluggableListSpec new
@@ -14,14 +14,7 @@ buildWith: aToolBuilder
 		setIndex: #classIndex:; 
 		frame: (0@0 corner: 0.25@1).
 		
-	mainListSpec := aToolBuilder pluggableListSpec new
-		model: self;
-		list: #actionsListRepresentation;
-		getIndex: #actionIndex; 
-		setIndex: #actionIndex:; 
-		menu: #actionMenu:;
-		autoDeselect: false;
-		frame: (0.25@0 corner: 1@1).
+	mainListSpec := self createMainListSpecWith: aToolBuilder.
 		
 	windowSpec children 
 		add: enumListSpec;

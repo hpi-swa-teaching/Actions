@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Shortcuts" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"classIndex",
-		"actionIndex" ],
-	"name" : "AShortcutBrowser",
+		"classIndex" ],
+	"name" : "ABrowser",
 	"pools" : [
 		 ],
-	"super" : "ABrowser",
+	"super" : "Model",
 	"type" : "normal" }

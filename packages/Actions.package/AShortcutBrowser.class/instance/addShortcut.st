@@ -1,4 +1,4 @@
-as yet unclassified
+handle shortcuts
 addShortcut
 
 	| eventKey |

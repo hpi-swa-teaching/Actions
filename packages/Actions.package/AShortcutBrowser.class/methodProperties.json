@@ -1,25 +1,18 @@
 {
 	"class" : {
-		"open" : "WoC 9/12/2020 00:11" },
+		"open" : "WoC 9/26/2020 13:32" },
 	"instance" : {
-		"acceptDialog" : "WoC 9/25/2020 20:06",
-		"actionHolder" : "WoC 9/26/2020 13:25",
 		"actionIndex" : "WoC 9/13/2020 00:42",
 		"actionIndex:" : "WoC 9/13/2020 00:43",
 		"actionMenu:" : "WoC 9/26/2020 00:08",
-		"actions" : "WoC 9/26/2020 13:25",
 		"actionsListRepresentation" : "WoC 9/25/2020 13:34",
 		"actionsMenu:" : "WoC 9/26/2020 00:07",
 		"addShortcut" : "WoC 9/25/2020 22:13",
 		"addShortcut:" : "WoC 9/26/2020 13:26",
-		"buildWith:" : "WoC 9/25/2020 23:57",
-		"cancelDialog" : "WoC 9/25/2020 20:06",
-		"classIndex" : "WoC 9/12/2020 23:54",
-		"classIndex:" : "WoC 9/25/2020 13:12",
+		"createMainListSpecWith:" : "WoC 9/26/2020 13:47",
 		"initialize" : "WoC 9/13/2020 00:42",
 		"listItemsForCurrentSelection" : "WoC 9/26/2020 13:26",
 		"removeShortcut:" : "WoC 9/26/2020 13:27",
 		"selectedAction" : "WoC 9/25/2020 11:49",
-		"selectedClass" : "WoC 9/25/2020 12:26",
-		"wantsActions" : "WoC 9/21/2020 12:30",
-		"wantsToList:" : "WoC 9/21/2020 12:04" } }
+		"wantsToList:" : "WoC 9/21/2020 12:04",
+		"windowLabel" : "WoC 9/26/2020 13:48" } }

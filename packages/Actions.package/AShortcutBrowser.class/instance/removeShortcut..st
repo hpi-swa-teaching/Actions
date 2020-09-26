@@ -1,4 +1,4 @@
-as yet unclassified
+handle shortcuts
 removeShortcut: anEventKey
 
 	AActions removeShortcut: anEventKey in: self selectedClass.

@@ -3,12 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Shortcuts" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"classIndex",
-		"actionIndex" ],
-	"name" : "AShortcutBrowser",
+		 ],
+	"name" : "AMenuBrowser",
 	"pools" : [
 		 ],
 	"super" : "ABrowser",
