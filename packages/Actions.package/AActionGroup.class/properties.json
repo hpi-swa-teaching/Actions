@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actions" ],
+	"name" : "AActionGroup",
+	"pools" : [
+		 ],
+	"super" : "AActionDescription",
+	"type" : "normal" }

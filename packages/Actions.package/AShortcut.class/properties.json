@@ -1,0 +1,15 @@
+{
+	"category" : "Actions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modifierPressed",
+		"key" ],
+	"name" : "AShortcut",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

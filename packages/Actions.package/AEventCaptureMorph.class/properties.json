@@ -1,0 +1,15 @@
+{
+	"category" : "Actions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stringMorph",
+		"eventKey" ],
+	"name" : "AEventCaptureMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }
