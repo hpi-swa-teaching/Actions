@@ -8,6 +8,6 @@ actions
 	class := method methodHome theNonMetaClass.
 	value := method valueWithReceiver: class arguments: {}.
 	^ (value isCollection
-		ifTrue: [(value select: [:each | self wantsToList: each])]
-		ifFalse: [(self wantsToList: value) ifTrue: [{value}]])
+		ifTrue: [(value select: [:each | self canDisplay: each])]
+		ifFalse: [(self canDisplay: value) ifTrue: [{value}]])
 			

@@ -1,4 +1,4 @@
 testing
-wantsToList: anObject
+canDisplay: anObject
 
 	^ anObject isKindOf: AActionDescription

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"tree",
+		"selectedPath",
+		"selectedItem" ],
 	"name" : "AMenuBrowser",
 	"pools" : [
 		 ],

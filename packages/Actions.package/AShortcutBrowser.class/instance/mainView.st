@@ -1,5 +1,5 @@
 accessing
-actionsListRepresentation
+mainView
 
 	| stream |
 	stream := WriteStream on: OrderedCollection new.

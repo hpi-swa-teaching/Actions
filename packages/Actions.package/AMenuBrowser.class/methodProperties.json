@@ -2,5 +2,14 @@
 	"class" : {
 		"open" : "WoC 9/26/2020 13:33" },
 	"instance" : {
-		"buildWith:" : "WoC 9/26/2020 13:34",
+		"createMainListSpecWith:" : "WoC 9/26/2020 19:51",
+		"getChildren:" : "WoC 9/26/2020 19:47",
+		"hasChildren:" : "WoC 9/26/2020 19:53",
+		"mainView" : "WoC 9/26/2020 19:27",
+		"selectedItem" : "WoC 9/26/2020 19:47",
+		"selectedItem:" : "WoC 9/26/2020 19:49",
+		"selectedPath" : "WoC 9/26/2020 19:43",
+		"selectedPath:" : "WoC 9/26/2020 19:52",
+		"tree" : "WoC 9/26/2020 19:24",
+		"tree:" : "WoC 9/26/2020 19:24",
 		"windowLabel" : "WoC 9/26/2020 13:48" } }

@@ -3,4 +3,4 @@ classIndex: anObject
 
 	classIndex := anObject.
 	self changed: #classIndex.
-	self changed: #actionsListRepresentation
+	self changed: #mainView

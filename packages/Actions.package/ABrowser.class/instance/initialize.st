@@ -2,4 +2,4 @@ initialize-release
 initialize
 
 	super initialize.
-	self actionIndex: 1
+	self classIndex: 1
