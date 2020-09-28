@@ -1,5 +1,6 @@
 handle shortcuts
-addShortcut: anEventKey
+addShortcut: aShortcut
 
-	AActions addShortcut: anEventKey for: self selectedAction in: self selectedClass.
+	aShortcut ifNil: [^ self].
+	AActions addShortcut: aShortcut for: self selectedAction in: self selectedClass.
 	self changed: #mainView
