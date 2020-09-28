@@ -1,0 +1,4 @@
+as yet unclassified
+writeListRepresentationOn: aWriteStream
+
+	self subclassResponsibility

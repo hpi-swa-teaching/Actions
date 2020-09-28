@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"=" : "WoC 9/21/2020 12:24",
+		"clazz" : "WoC 9/28/2020 11:53",
+		"clazz:" : "WoC 9/28/2020 11:53",
 		"hash" : "WoC 9/25/2020 14:36",
 		"title" : "WoC 9/20/2020 14:15",
 		"title:" : "WoC 9/20/2020 14:15",
-		"writeListRepresentationIn:on:" : "WoC 9/25/2020 13:33",
+		"writeListRepresentationOn:" : "WoC 9/28/2020 12:01",
 		"writeTreeRepresentationInto:" : "WoC 9/26/2020 19:23" } }

@@ -1,4 +1,4 @@
 accessing
 description
 
-	^ description
+	^ description ifNil: ['']

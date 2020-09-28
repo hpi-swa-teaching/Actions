@@ -3,11 +3,12 @@
 		"open" : "WoC 9/26/2020 13:46" },
 	"instance" : {
 		"actionHolder" : "WoC 9/26/2020 13:49",
-		"actions" : "WoC 9/26/2020 19:26",
+		"actions" : "WoC 9/28/2020 11:55",
 		"buildWith:" : "WoC 9/26/2020 13:48",
 		"canDisplay:" : "WoC 9/26/2020 19:26",
 		"classIndex" : "WoC 9/26/2020 13:49",
 		"classIndex:" : "WoC 9/26/2020 18:53",
+		"collectActions" : "WoC 9/28/2020 11:57",
 		"createMainListSpecWith:" : "WoC 9/26/2020 13:47",
 		"initialize" : "WoC 9/26/2020 14:01",
 		"mainView" : "WoC 9/26/2020 18:55",
