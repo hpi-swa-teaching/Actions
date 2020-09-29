@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 actionPragmas
 
 	| pragmas |
@@ -6,6 +6,6 @@ actionPragmas
 	Smalltalk allClassesDo: [:aClass |
 		aClass class methodsDo: [:method |
 			method pragmas do: [:pragma |
-				pragma keyword = #wantsActions
+				pragma keyword = self pragmaKeyword
 					ifTrue: [pragmas add: pragma]]]].
 	^ pragmas

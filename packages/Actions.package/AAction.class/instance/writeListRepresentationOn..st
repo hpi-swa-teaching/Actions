@@ -1,4 +1,4 @@
-as yet unclassified
+write representation
 writeListRepresentationOn: aWriteStream
 
 	aWriteStream nextPut: self

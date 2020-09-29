@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 platformModifierString
 
 	^ Smalltalk platformName = 'Mac OS'

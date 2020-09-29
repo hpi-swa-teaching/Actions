@@ -1,0 +1,4 @@
+accessing
+pragmaKeyword
+
+	^ #wantsActions

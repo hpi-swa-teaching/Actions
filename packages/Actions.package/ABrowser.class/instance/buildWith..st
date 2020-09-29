@@ -9,7 +9,7 @@ buildWith: aToolBuilder
 	
 	enumListSpec := aToolBuilder pluggableListSpec new
 		model: self;
-		list: #actionHolder;
+		list: #classes;
 		getIndex: #classIndex; 
 		setIndex: #classIndex:; 
 		frame: (0@0 corner: 0.25@1).

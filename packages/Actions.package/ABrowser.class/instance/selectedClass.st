@@ -1,4 +1,4 @@
 accessing
 selectedClass
 
-	^ self actionHolder at: self classIndex
+	^ self classes at: self classIndex

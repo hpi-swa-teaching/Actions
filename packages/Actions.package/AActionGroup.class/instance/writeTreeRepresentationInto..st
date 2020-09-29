@@ -1,10 +1,7 @@
-as yet unclassified
-writeTreeRepresentationInto: aDictionary
+write representation
+writeTreeRepresentationInto: aTreeNode
 
-	| children |
-	children := Dictionary new.
-	aDictionary 
-		at: self title 
-		put: children.
-		
-	self actions collect: [:each | each writeTreeRepresentationInto: children]
+	| node |
+	node := ATreeNode value: self.
+	aTreeNode addChild: node.
+	self actions collect: [:each | each writeTreeRepresentationInto: node]

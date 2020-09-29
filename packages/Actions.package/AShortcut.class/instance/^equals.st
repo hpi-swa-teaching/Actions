@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anEventKey
 
 	anEventKey class = self class

@@ -1,4 +1,4 @@
 accessing
 currentMenu
 
-	^ AActions menuFor: self selectedClass
+	^ AActions menuStructureFor: self selectedClass

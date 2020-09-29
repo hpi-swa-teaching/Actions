@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"open" : "WoC 9/26/2020 13:33" },
+		 },
 	"instance" : {
 		"addAction" : "WoC 9/26/2020 22:51",
-		"addSeparator" : "WoC 9/26/2020 23:44",
+		"addNode:" : "WoC 9/29/2020 12:06",
+		"addSeparator" : "WoC 9/29/2020 12:08",
 		"buttonPanelHeight" : "WoC 9/26/2020 20:10",
 		"canMoveDown" : "WoC 9/26/2020 22:18",
 		"canMoveUp" : "WoC 9/26/2020 22:18",
@@ -13,12 +14,12 @@
 		"createButtonSpecsWith:" : "WoC 9/26/2020 23:41",
 		"createMainListSpecWith:" : "WoC 9/26/2020 20:12",
 		"createTreeSpecWith:" : "WoC 9/26/2020 23:30",
-		"currentMenu" : "WoC 9/26/2020 23:02",
+		"currentMenu" : "WoC 9/29/2020 11:20",
 		"getChildren:" : "WoC 9/26/2020 19:47",
 		"hasChildren:" : "WoC 9/26/2020 19:53",
-		"mainView" : "WoC 9/26/2020 23:18",
+		"mainView" : "WoC 9/29/2020 11:21",
 		"openAddMenu" : "WoC 9/26/2020 22:51",
-		"removeItem" : "WoC 9/26/2020 23:44",
+		"removeItem" : "WoC 9/29/2020 12:02",
 		"selectedItem" : "WoC 9/26/2020 19:47",
 		"selectedItem:" : "WoC 9/26/2020 22:31",
 		"selectedPath" : "WoC 9/26/2020 19:43",
@@ -26,4 +27,4 @@
 		"tree" : "WoC 9/26/2020 19:24",
 		"tree:" : "WoC 9/26/2020 19:24",
 		"windowLabel" : "WoC 9/26/2020 13:48",
-		"withMenuDo:" : "WoC 9/26/2020 23:43" } }
+		"withMenuDo:" : "WoC 9/29/2020 12:02" } }

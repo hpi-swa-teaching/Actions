@@ -2,4 +2,4 @@ accessing
 mainView
 
 	self tree: Dictionary new.
-	^(AActions menuFor: self selectedClass) children collect: [:each | each]
+	^ self currentMenu children collect: [:each | each]

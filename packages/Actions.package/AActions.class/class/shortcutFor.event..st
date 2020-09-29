@@ -1,4 +1,4 @@
-as yet unclassified
+handle shortcuts
 shortcutFor: anObject event: evt
 
 	evt isKeyboard

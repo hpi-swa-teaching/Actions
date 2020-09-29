@@ -1,4 +1,4 @@
-as yet unclassified
+write representation
 writeTreeRepresentationInto: aDictionary
 
 	self subclassResponsibility

@@ -1,8 +1,10 @@
 {
 	"category" : "Actions-Core",
 	"classinstvars" : [
-		 ],
+		"clazz",
+		"saveStrategie" ],
 	"classvars" : [
+		"Actions",
 		"Menus",
 		"Shortcuts" ],
 	"commentStamp" : "",

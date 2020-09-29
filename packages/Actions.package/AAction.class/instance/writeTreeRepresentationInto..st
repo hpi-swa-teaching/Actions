@@ -1,4 +1,4 @@
-as yet unclassified
-writeTreeRepresentationInto: aDictionary
+write representation
+writeTreeRepresentationInto: aTreeNode
 
-	aDictionary at: self title put: nil
+	aTreeNode addChild: (ATreeNode value: self) 
