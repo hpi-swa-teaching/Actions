@@ -1,9 +1,0 @@
-handle actions
-updateAction: anActionDescription
-
-	self flag: #Todo. "Warn for multiple declaration of same action"
-
-	(self actionsAt: clazz ifAbsentPut: [Dictionary new])
-		at: anActionDescription title
-		put: anActionDescription.
-	anActionDescription clazz: clazz

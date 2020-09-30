@@ -1,4 +1,4 @@
 accessing
 selectedAction
 
-	^ self actions at: self actionIndex
+	^ self mainView at: self actionIndex

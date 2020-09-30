@@ -1,4 +1,4 @@
 accessing
 classesWithActions
 
-	^ Actions keys
+	^ self actionPragmas collect: [:each | each methodClass theNonMetaClass]

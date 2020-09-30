@@ -1,5 +1,5 @@
 event handling
 keyStroke: evt
 
-	self eventKey: (AShortcut from: evt).
-	self contents: self eventKey asString
+	self eventKey: evt.
+	self contents: self eventAsString

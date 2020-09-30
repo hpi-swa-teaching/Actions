@@ -4,6 +4,11 @@ shortcutRepresentation
 	| shortcuts |
 	shortcuts := AActions 
 		shortcutsFor: self 
-		in: self clazz name
+		in: self clazz
 		ifAbsent: [^ ''].
-	^ '(' , ((shortcuts collect: #asString) joinSeparatedBy: ', ' ) , ')'
+	^ '(' , ((shortcuts 
+		collect: [:each | | stream |
+			stream := WriteStream on: ''.
+			each printKeyStringOn: stream.
+			stream contents]) 
+		joinSeparatedBy: ', ' ) , ')'
