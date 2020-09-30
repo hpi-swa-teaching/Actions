@@ -1,5 +1,7 @@
 handle shortcuts
-addShortcut: anEventKey for: anAction in: aClass
+addShortcut: aShortcut for: anAction in: aClass
 
+	| association |
+	association := (Actions at: aClass) associationAt: anAction title.
 	(Shortcuts at: aClass ifAbsentPut: [Dictionary new])
-		at: anEventKey put: anAction
+		at: aShortcut put: association

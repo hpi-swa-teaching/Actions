@@ -1,5 +1,11 @@
 updating
 update: aSymbol
 
-	aSymbol = #classes
-		ifTrue: [self changed: #classes]
+	aSymbol = #renamedClass
+		ifTrue: [| index |
+			index := self classIndex.
+			self changed: #classes.
+			self classIndex: index].
+		
+	aSymbol = #methods
+		ifTrue: [self changed: #mainView]

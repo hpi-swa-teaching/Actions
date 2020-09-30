@@ -1,4 +1,4 @@
 accessing
 selectedClass
 
-	^ self classes at: self classIndex
+	^ self classes at: self classIndex ifAbsent: [nil]

@@ -1,5 +1,5 @@
 handle actions
-deleteAction: anActionDescription
+deleteAction: anActionDescription withDefault: aShortcut
 
 	(self actionsAt: clazz ifAbsent: [^ self])
 		removeKey: anActionDescription title.

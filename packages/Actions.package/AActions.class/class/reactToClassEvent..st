@@ -5,6 +5,5 @@ reactToClassEvent: anEvent
 		ifTrue: [self removeAllActionsOf: anEvent itemClass theNonMetaClass].
 		
 	anEvent isRenamed
-		ifTrue: [self moveActionsFrom: anEvent oldName to: anEvent newName].
-		
-	self changed: #classes
+		ifTrue: [self moveActionsFrom: anEvent oldName to: anEvent newName.
+			self changed: #renamedClass].

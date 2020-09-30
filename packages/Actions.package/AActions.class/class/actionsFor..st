@@ -1,4 +1,4 @@
 accessing
-actionsFor: aClass
+actionsFor: aSymbol
 
-	^ (Actions at: aClass ifAbsent: [^ {}]) values
+	^ (Actions at: aSymbol ifAbsent: [^ {}]) values

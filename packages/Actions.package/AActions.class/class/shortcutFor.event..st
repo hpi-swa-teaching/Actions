@@ -4,7 +4,7 @@ shortcutFor: anObject event: evt
 	evt isKeyboard
 		ifFalse: [^ self].
 	Shortcuts 
-		at: anObject class
-		ifPresent: [:list | list 
+		at: anObject class name
+		ifPresent: [:dict | dict 
 							at: (AShortcut from: evt)  
-							ifPresent: [:action | action for: anObject]]
+							ifPresent: [:association | association value for: anObject]]

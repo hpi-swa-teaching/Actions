@@ -1,5 +1,5 @@
 handle actions
-addAction: anActionDescription
+addAction: anActionDescription withDefault: aShortcut
 
 	| dict title |
 	title := anActionDescription title.
@@ -11,4 +11,6 @@ addAction: anActionDescription
 	dict
 		at: title
 		put: anActionDescription.
-	anActionDescription clazz: clazz
+	anActionDescription clazz: clazz.
+	
+	self addDefaultShortcut: aShortcut for: anActionDescription in: clazz

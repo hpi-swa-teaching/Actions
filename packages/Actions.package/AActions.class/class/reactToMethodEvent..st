@@ -21,4 +21,6 @@ reactToMethodEvent: anEvent
 		ifTrue: [self 
 				ifRelevantWithClass: anEvent itemClass theNonMetaClass 
 				andSaveStrategie: #deleteAction:
-				evaluate: anEvent item]
+				evaluate: anEvent item].
+	
+	self changed: #methods

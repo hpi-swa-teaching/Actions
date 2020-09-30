@@ -1,5 +1,9 @@
-as yet unclassified
+handle actions
 moveActionsFrom: oldName to: newName
 
-	Shortcuts at: newName put: (Shortcuts at: oldName).
-	self removeAllActionsOf: oldName
+	| newSymbol oldSymbol |
+	newSymbol := newName asSymbol.
+	oldSymbol := oldName asSymbol.
+	Shortcuts at: newSymbol put: (Shortcuts at: oldSymbol).
+	Actions at: newSymbol put: (Actions at: oldSymbol).
+	self removeAllActionsOf: oldSymbol

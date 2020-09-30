@@ -4,6 +4,6 @@ shortcutRepresentation
 	| shortcuts |
 	shortcuts := AActions 
 		shortcutsFor: self 
-		in: self clazz 
+		in: self clazz name
 		ifAbsent: [^ ''].
 	^ '(' , ((shortcuts collect: #asString) joinSeparatedBy: ', ' ) , ')'
