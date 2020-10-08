@@ -1,4 +1,4 @@
 write representation
-writeListRepresentationOn: aWriteStream
+writeListRepresentationOn: aCollection
 
-	self actions do: [:each | each writeListRepresentationOn: aWriteStream]
+	self actions do: [:each | each writeListRepresentationOn: aCollection]

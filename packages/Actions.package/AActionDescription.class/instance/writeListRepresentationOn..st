@@ -1,4 +1,4 @@
 write representation
-writeListRepresentationOn: aWriteStream
+writeListRepresentationOn: aCollection
 
 	self subclassResponsibility

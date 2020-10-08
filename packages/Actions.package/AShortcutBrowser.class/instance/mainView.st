@@ -1,9 +1,9 @@
 accessing
 mainView
 
-	| stream |
-	stream := WriteStream on: OrderedCollection new.
-	self actions do: [:each | each writeListRepresentationOn: stream].
+	| collection |
+	collection := SortedCollection sortBlock: [:a :b | a title <= b title].
+	self actions do: [:each | each writeListRepresentationOn: collection].
 	
-	^ stream contents
+	^ collection
 			
