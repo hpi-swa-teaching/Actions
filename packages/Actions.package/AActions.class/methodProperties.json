@@ -1,10 +1,12 @@
 {
 	"class" : {
-		"actionPragmas" : "WoC 9/30/2020 00:30",
-		"actionsFor:" : "WoC 9/30/2020 21:50",
+		"actionPragmasFor:" : "WoC 10/8/2020 13:35",
+		"actionsFor:" : "WoC 10/8/2020 13:42",
 		"addDefaultShortcut:for:in:" : "WoC 9/30/2020 13:16",
 		"addShortcut:for:in:" : "WoC 9/30/2020 21:47",
-		"classesWithActions" : "WoC 9/30/2020 21:40",
+		"allActionPragmas" : "WoC 10/8/2020 13:19",
+		"classesWithActions" : "WoC 10/8/2020 14:04",
+		"cleanActionsOf:" : "WoC 10/1/2020 00:50",
 		"install" : "WoC 9/30/2020 21:44",
 		"menuFor:" : "WoC 9/30/2020 03:07",
 		"menuStructureFor:" : "WoC 9/30/2020 03:07",

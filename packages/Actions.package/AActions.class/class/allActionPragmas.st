@@ -1,5 +1,5 @@
 accessing
-actionPragmas
+allActionPragmas
 
 	| pragmas |
 	pragmas := OrderedCollection new.

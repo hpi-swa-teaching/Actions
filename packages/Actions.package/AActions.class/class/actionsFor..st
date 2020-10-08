@@ -1,13 +1,14 @@
 accessing
 actionsFor: aClass
 
-	| method result actions |
-	method := (self actionPragmas 
-		detect: [:each | each methodClass theNonMetaClass = aClass ]
-		ifNone: [^ {}]) method.
-	result := method valueWithReceiver: aClass arguments: {}.
-	actions := (result isCollection
-		ifTrue: [(result select: [:each | self testIfIsAction: each])]
-		ifFalse: [(self testIfIsAction: result) ifTrue: [{result}]]) ifNil: [{}].
+	| methods actions |
+	methods := (self actionPragmasFor: aClass) collect: [:each | each method].
+	actions := OrderedCollection new.
+	methods do: [:each | | result |
+		result := each valueWithReceiver: aClass arguments: {}.
+		result isCollection
+			ifTrue: [(result do: [:ea | (self testIfIsAction: ea) ifTrue: [actions add: ea]])]
+			ifFalse: [(self testIfIsAction: result) ifTrue: [actions add: result]]
+		].
 	actions do: [:each | each clazz: aClass].
 	^ actions

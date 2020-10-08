@@ -1,4 +1,6 @@
 accessing
 classesWithActions
 
-	^ self actionPragmas collect: [:each | each methodClass theNonMetaClass]
+	^ (self allActionPragmas collect: [:each | each methodClass theNonMetaClass])
+		asSet 
+		asSortedCollection: [:a :b | a name <= b name]
