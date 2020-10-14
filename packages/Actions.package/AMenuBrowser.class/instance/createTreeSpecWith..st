@@ -10,5 +10,6 @@ createTreeSpecWith: aToolBuilder
 		setSelected: #selectedItem:;
 		getSelectedPath: #selectedPath;
 		setSelectedPath: #selectedPath:;
+		help: #helpFor:;
 		frame: (0@self buttonPanelHeight corner: 1@1);
 		yourself
