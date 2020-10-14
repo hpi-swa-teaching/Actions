@@ -11,6 +11,7 @@ setContentOf: aSpec buildWith: aToolBuilder
 		setSelected: #selectedItem:;
 		getSelectedPath: #selectedPath;
 		setSelectedPath: #selectedPath:;
+		help: #helpFor:;
 		yourself.
 	
 	aSpec children: {treeSpec}
