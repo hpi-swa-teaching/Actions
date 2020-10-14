@@ -3,4 +3,4 @@ asString
 
 	^ self isSeperator
 		ifTrue: [self value]
-		ifFalse: ['Hello world']
+		ifFalse: [self value title]

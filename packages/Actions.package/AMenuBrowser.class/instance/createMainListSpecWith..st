@@ -10,6 +10,6 @@ createMainListSpecWith: aToolBuilder
 		
 	mainPanel children
 		add: (self createButtonPanelSpecWith: aToolBuilder);
-		add: ( self createTreeSpecWith: aToolBuilder).
+		add: (self createTreeSpecWith: aToolBuilder).
 	
 	^ mainPanel

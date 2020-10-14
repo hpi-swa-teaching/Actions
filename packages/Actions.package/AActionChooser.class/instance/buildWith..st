@@ -1,13 +1,10 @@
-toolbuilder
+as yet unclassified
 buildWith: aToolBuilder
 
 	| dialogSpec panelSpec dialog |
-	self captureMorph: AEventCaptureMorph new.
-	
 	dialogSpec := aToolBuilder pluggableDialogSpec new
 		model: self;
-		title: 'Capturer';
-		extent: 180@50;
+		title: #title;
 		wantsResizeHandles: false;
 		children: OrderedCollection new;
 		buttons: OrderedCollection new;
@@ -16,7 +13,7 @@ buildWith: aToolBuilder
 	panelSpec := aToolBuilder pluggablePanelSpec new
 		model: self;
 		frame: (0@0 corner: 1@1);
-		name: #eventCapturer;
+		name: #content;
 		yourself.
 		
 	dialogSpec children add: panelSpec.
@@ -35,9 +32,7 @@ buildWith: aToolBuilder
 			color: (self userInterfaceTheme cancelColor ifNil: [Color r: 1 g: 0.6 b: 0.588]);
 			action: #accept).
 	
+	self setContentOf: panelSpec buildWith: aToolBuilder.
 	dialog := aToolBuilder buildPluggableDialog: dialogSpec.
-	
-	(aToolBuilder widgetAt: #eventCapturer)
-		addMorph: self captureMorph.
 
 	^ dialog

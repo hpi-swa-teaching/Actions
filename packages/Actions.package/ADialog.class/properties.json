@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"captureMorph" ],
-	"name" : "AEventCapturer",
+		 ],
+	"name" : "ADialog",
 	"pools" : [
 		 ],
-	"super" : "ADialog",
+	"super" : "Model",
 	"type" : "normal" }

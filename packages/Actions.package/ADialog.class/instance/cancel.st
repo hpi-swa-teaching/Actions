@@ -1,4 +1,4 @@
-button actions
+as yet unclassified
 cancel
 
 	self changed: #close

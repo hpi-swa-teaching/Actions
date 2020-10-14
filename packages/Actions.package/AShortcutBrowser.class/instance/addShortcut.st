@@ -2,5 +2,5 @@ handle shortcuts
 addShortcut
 
 	| eventKey |
-	eventKey := AEventCapturer receiveShortcut.
+	eventKey := AEventCapturer getUserChoice.
 	self addShortcut: eventKey

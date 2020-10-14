@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"captureMorph" ],
-	"name" : "AEventCapturer",
+		"actionHolder",
+		"selectedItem",
+		"selectedPath" ],
+	"name" : "AActionChooser",
 	"pools" : [
 		 ],
 	"super" : "ADialog",

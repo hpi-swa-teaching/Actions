@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 result
 
-	^ result
+	^ self captureMorph eventKey

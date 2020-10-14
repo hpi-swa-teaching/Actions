@@ -1,11 +1,9 @@
 {
 	"class" : {
-		"receiveShortcut" : "WoC 9/25/2020 22:08" },
+		"getUserChoice" : "WoC 10/14/2020 22:28" },
 	"instance" : {
-		"accept" : "WoC 9/25/2020 22:11",
-		"buildWith:" : "WoC 9/25/2020 22:11",
-		"cancel" : "WoC 9/25/2020 22:10",
 		"captureMorph" : "WoC 9/25/2020 22:09",
 		"captureMorph:" : "WoC 9/25/2020 22:09",
-		"result" : "WoC 9/25/2020 22:08",
-		"result:" : "WoC 9/25/2020 22:08" } }
+		"result" : "WoC 10/9/2020 15:23",
+		"setContentOf:buildWith:" : "WoC 10/14/2020 22:19",
+		"title" : "WoC 10/9/2020 15:17" } }

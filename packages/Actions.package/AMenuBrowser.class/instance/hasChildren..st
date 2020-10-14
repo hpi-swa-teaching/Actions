@@ -1,4 +1,4 @@
 testing
-hasChildren: aSymbol
+hasChildren: aTreeNode
 
-	^ (self tree at: aSymbol ifAbsent: [nil]) notNil 
+	^ aTreeNode hasChildren 

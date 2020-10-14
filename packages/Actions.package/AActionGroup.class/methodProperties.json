@@ -6,7 +6,9 @@
 		"actions" : "WoC 9/20/2020 14:02",
 		"actions:" : "WoC 9/20/2020 14:02",
 		"addAction:" : "WoC 9/20/2020 14:05",
+		"asTreeNode" : "WoC 10/15/2020 00:02",
 		"clazz:" : "WoC 9/28/2020 12:03",
 		"initialize" : "WoC 9/20/2020 14:02",
+		"isActionGroup" : "WoC 10/14/2020 23:10",
 		"writeListRepresentationOn:" : "WoC 10/8/2020 14:08",
 		"writeTreeRepresentationInto:" : "WoC 9/29/2020 12:12" } }

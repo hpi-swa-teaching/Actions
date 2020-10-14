@@ -1,4 +1,4 @@
 accessing
-getChildren: aSymbol
+getChildren: aTreeNode
 
-	^ (self tree at: aSymbol) keys
+	^ aTreeNode children
