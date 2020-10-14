@@ -7,7 +7,7 @@
 		"allActionPragmas" : "WoC 10/8/2020 13:19",
 		"classesWithActions" : "WoC 10/8/2020 14:04",
 		"cleanActionsOf:" : "WoC 10/1/2020 00:50",
-		"fillMenu:for:" : "WoC 10/14/2020 23:34",
+		"fillMenu:for:" : "WoC 10/15/2020 01:53",
 		"initializeIfNeccessary" : "WoC 10/8/2020 14:11",
 		"install" : "WoC 10/8/2020 14:11",
 		"make:" : "WoC 10/14/2020 22:15",
@@ -17,7 +17,7 @@
 		"removeShortcut:in:" : "WoC 9/30/2020 03:08",
 		"reset" : "WoC 9/30/2020 21:44",
 		"setMenuFor:to:" : "WoC 9/30/2020 03:07",
-		"shortcutFor:event:" : "WoC 9/30/2020 23:17",
+		"shortcutFor:event:" : "WoC 10/15/2020 01:53",
 		"shortcutsFor:in:ifAbsent:" : "WoC 9/30/2020 03:09",
 		"testIfIsAction:" : "WoC 9/29/2020 22:25" },
 	"instance" : {
