@@ -2,8 +2,9 @@
 	"class" : {
 		"getUserChoice" : "WoC 10/14/2020 22:28" },
 	"instance" : {
+		"buildWith:" : "WoC 10/15/2020 00:49",
 		"captureMorph" : "WoC 9/25/2020 22:09",
 		"captureMorph:" : "WoC 9/25/2020 22:09",
+		"createDialogSpecWith:" : "WoC 10/15/2020 01:37",
 		"result" : "WoC 10/9/2020 15:23",
-		"setContentOf:buildWith:" : "WoC 10/14/2020 22:19",
 		"title" : "WoC 10/9/2020 15:17" } }

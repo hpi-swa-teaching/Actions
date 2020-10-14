@@ -6,7 +6,7 @@ putOnMenu: aMenu for: anObject
 		
 	self value isAction
 		ifTrue: [aMenu 
-					add: self value title
+					add: self value title , self value shortcutRepresentation
 					action: [self value for: anObject].
 				"adds help to menu item; add:help:action: is not able to take a block as parameter for action"
 				aMenu balloonTextForLastItem: self value description].
