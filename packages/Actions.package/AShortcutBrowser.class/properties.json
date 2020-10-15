@@ -6,7 +6,6 @@
 		"Shortcuts" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"classIndex",
 		"actionIndex" ],
 	"name" : "AShortcutBrowser",
 	"pools" : [
