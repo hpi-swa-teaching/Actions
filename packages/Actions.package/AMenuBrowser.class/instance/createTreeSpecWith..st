@@ -11,5 +11,6 @@ createTreeSpecWith: aToolBuilder
 		getSelectedPath: #selectedPath;
 		setSelectedPath: #selectedPath:;
 		help: #helpFor:;
+		keyPress: #keyPress:tree:event:;
 		frame: (0@self buttonPanelHeight corner: 1@1);
 		yourself

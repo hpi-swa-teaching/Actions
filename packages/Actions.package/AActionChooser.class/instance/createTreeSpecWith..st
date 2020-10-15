@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createTreeSpecWith: aToolBuilder
 
 	^ aToolBuilder pluggableTreeSpec new
@@ -11,4 +11,5 @@ createTreeSpecWith: aToolBuilder
 		getSelectedPath: #selectedPath;
 		setSelectedPath: #selectedPath:;
 		help: #helpFor:;
+		frame: (0@0 corner: 1@1)
 		yourself

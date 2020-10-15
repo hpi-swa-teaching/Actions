@@ -4,8 +4,8 @@ createButtonSpecsWith: aToolBuilder
 	^ {
 		{'add' . #openAddMenu . nil} . 
 		{'remove' . #removeItem . #canRemove} . 
-		{'moveUp' . nil . #canMoveUp} . 
-		{'moveDown' . nil . #canMoveDown}} 
+		{'moveUp' . #moveUp . #canMoveUp} . 
+		{'moveDown' . #moveDown . #canMoveDown}} 
 		collect: [:each | 
 			self 
 				createButtonSpecWith: aToolBuilder 
