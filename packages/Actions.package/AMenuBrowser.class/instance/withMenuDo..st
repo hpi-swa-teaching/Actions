@@ -3,6 +3,6 @@ withMenuDo: aBlock
 
 	| menu |
 	menu := self currentMenu.
-	aBlock value: menu.
+	aBlock value: (menu followPath: self selectedPath).
 	AActions setMenuFor: self selectedClass to: menu.
 	self changed: #mainView

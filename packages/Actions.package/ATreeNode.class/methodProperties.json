@@ -4,11 +4,13 @@
 		"value:" : "WoC 9/26/2020 23:14" },
 	"instance" : {
 		"addChild:" : "WoC 9/26/2020 22:58",
+		"addChild:after:" : "WoC 10/15/2020 03:50",
 		"asString" : "WoC 10/15/2020 00:06",
 		"children" : "WoC 9/26/2020 22:57",
 		"children:" : "WoC 9/26/2020 22:57",
 		"description" : "WoC 10/15/2020 00:24",
 		"fill:for:" : "WoC 10/14/2020 23:34",
+		"followPath:" : "WoC 10/15/2020 03:48",
 		"hasChildren" : "WoC 9/26/2020 22:59",
 		"initialize" : "WoC 9/26/2020 22:58",
 		"isSeperator" : "WoC 9/26/2020 23:34",
