@@ -3,9 +3,10 @@ moveUp
 
 	| index items itemIndex |
 	self selectedPath 
-		ifNil: [^ false];
-		ifEmpty: [^ false].
-	self selectedItem ifNil: [^ false].
+		ifNil: [^ self];
+		ifEmpty: [^ self].
+	self selectedItem ifNil: [^ self].
+	self canMoveUp ifFalse: [^ self].
 	index := self selectedPath size.
 	items := self mainView.
 	[index > 1]
