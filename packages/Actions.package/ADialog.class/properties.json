@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"result" ],
 	"name" : "ADialog",
 	"pools" : [
 		 ],

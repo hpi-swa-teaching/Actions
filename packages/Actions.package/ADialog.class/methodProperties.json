@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accept" : "WoC 10/9/2020 15:08",
+		"accept" : "WoC 10/15/2020 12:11",
 		"buildWith:" : "WoC 10/15/2020 00:48",
 		"cancel" : "WoC 10/9/2020 15:08",
 		"createButtonSpecsWith:" : "WoC 10/15/2020 00:45",
 		"createDialogSpecWith:" : "WoC 10/15/2020 01:36",
 		"createPanelSpecWith:" : "WoC 10/15/2020 01:04",
-		"result" : "WoC 10/9/2020 15:22",
+		"result" : "WoC 10/15/2020 12:11",
+		"result:" : "WoC 10/15/2020 12:11",
+		"setResult" : "WoC 10/15/2020 12:11",
 		"title" : "WoC 10/9/2020 15:16" } }
