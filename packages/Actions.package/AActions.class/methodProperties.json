@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"actionPragmasFor:" : "WoC 10/8/2020 13:35",
+		"actionPragmasFor:" : "WoC 10/26/2020 14:56",
 		"actionsFor:" : "WoC 10/8/2020 13:42",
 		"addDefaultShortcut:for:in:" : "WoC 9/30/2020 13:16",
 		"addShortcut:for:in:" : "WoC 9/30/2020 21:47",
-		"allActionPragmas" : "WoC 10/8/2020 13:19",
-		"classesWithActions" : "WoC 10/8/2020 14:04",
+		"allActionMethods" : "WoC 10/26/2020 14:56",
+		"classesWithActions" : "WoC 10/26/2020 14:56",
 		"cleanActionsOf:" : "WoC 10/1/2020 00:50",
 		"fillMenu:for:" : "WoC 10/15/2020 01:53",
 		"initializeIfNeccessary" : "WoC 10/8/2020 14:11",
@@ -13,7 +13,8 @@
 		"make:" : "WoC 10/14/2020 22:15",
 		"menuFor:" : "WoC 10/14/2020 23:12",
 		"menuStructureFor:" : "WoC 9/30/2020 03:07",
-		"pragmaKeyword" : "WoC 9/30/2020 00:30",
+		"pragmaKeywords" : "WoC 10/26/2020 14:52",
+		"recognizes:" : "WoC 10/26/2020 15:01",
 		"removeShortcut:in:" : "WoC 9/30/2020 03:08",
 		"reset" : "WoC 9/30/2020 21:44",
 		"setMenuFor:to:" : "WoC 9/30/2020 03:07",
@@ -21,4 +22,5 @@
 		"shortcutsFor:in:ifAbsent:" : "WoC 9/30/2020 03:09",
 		"testIfIsAction:" : "WoC 9/29/2020 22:25" },
 	"instance" : {
-		"wantsActions" : "WoC 9/26/2020 13:52" } }
+		"wantsActions" : "WoC 10/15/2020 15:00",
+		"wantsActionsInCategory:" : "WoC 10/15/2020 15:01" } }

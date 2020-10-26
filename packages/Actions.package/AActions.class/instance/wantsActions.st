@@ -1,4 +1,4 @@
-pragma
+pragmas
 wantsActions
 
-	"pragma method, just there so the pragma can get compiled"
+	"Actions get added to the default category"
