@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shortcutBrowser" ],
+	"name" : "ActionsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
