@@ -1,0 +1,4 @@
+accessing
+actionsPragmaKeywords
+
+	^ {#wantsActions .  #wantsActionsInCategory:}

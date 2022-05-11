@@ -1,4 +1,4 @@
 accessing
 pragmaKeywords
 
-	^ {#wantsActions . #wantsActionsInCategory:}
+	^ {#wantsActions . #wantsDefaultActions . #wantsActionsInCategory:}
