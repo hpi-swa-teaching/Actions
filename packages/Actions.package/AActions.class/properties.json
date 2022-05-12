@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"AreDefaultShortcutsAlreadyActive",
 		"Menus",
 		"Shortcuts" ],
 	"commentStamp" : "",

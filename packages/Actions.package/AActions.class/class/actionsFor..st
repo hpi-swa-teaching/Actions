@@ -6,9 +6,13 @@ actionsFor: aClass
 	actions := OrderedCollection new.
 	methods do: [:each | | result |
 		result := each valueWithReceiver: aClass arguments: {}.
-		result isCollection
-			ifTrue: [(result do: [:ea | (self testIfIsAction: ea) ifTrue: [actions add: ea]])]
-			ifFalse: [(self testIfIsAction: result) ifTrue: [actions add: result]]
+		result isDictionary
+			ifTrue: [result keys do: [:ea | self add: ea IfAnActionTo: actions]]
+			ifFalse: [
+			result isCollection
+				ifTrue: [(result do: [:ea | self add: ea IfAnActionTo: actions])]
+				ifFalse: [self add: result IfAnActionTo: actions]
+			].
 		].
 	actions do: [:each | each clazz: aClass].
 	^ actions
