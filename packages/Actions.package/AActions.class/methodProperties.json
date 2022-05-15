@@ -9,6 +9,7 @@
 		"addDefaultShortcut:for:in:" : "WoC 9/30/2020 13:16",
 		"addShortcut:for:in:" : "KK 5/11/2022 13:54",
 		"allActionMethods" : "KK 5/10/2022 18:55",
+		"checkIfDuplicatesExistsFor:" : "TA 5/15/2022 21:19",
 		"classesWithActions" : "WoC 10/26/2020 14:56",
 		"cleanActionsOf:" : "WoC 10/1/2020 00:50",
 		"fillMenu:for:" : "WoC 10/15/2020 01:53",
