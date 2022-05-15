@@ -1,6 +1,10 @@
 toolbuilder
 openHelpMenu
 
-	Workspace new contents: self helpText;
-	openLabel: 'How to use'.
-	^ true
+	|a| 
+	a := DialogWindow new.
+	a title: 'How to use';
+	createButton: 'Thanks!' value: true;
+	exclusive: false;
+	message: self helpText;
+	openAsTool
