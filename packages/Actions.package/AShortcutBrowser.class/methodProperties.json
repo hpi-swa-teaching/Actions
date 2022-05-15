@@ -12,7 +12,7 @@
 		"buttonPanelHeight" : "TA 5/7/2022 15:27",
 		"checkForDuplicatesFor:" : "TA 5/15/2022 21:17",
 		"classIndex:" : "TA 5/15/2022 21:20",
-		"createButtonSpecsWith:" : "TA 5/7/2022 15:25",
+		"createButtonSpecsWith:" : "KK 5/14/2022 16:23",
 		"createMainListSpecWith:" : "TA 5/7/2022 15:26",
 		"createPluggableListSpecWith:" : "TA 5/7/2022 15:31",
 		"helpForItem:" : "WoC 9/28/2020 12:12",
@@ -22,5 +22,7 @@
 		"mainView" : "TA 5/14/2022 13:11",
 		"openHelpMenu" : "TA 5/7/2022 15:29",
 		"removeShortcut:" : "WoC 9/26/2020 18:54",
+		"resetShortcuts" : "KK 5/14/2022 16:17",
+		"resetShortcutsForSelectedClass" : "KK 5/14/2022 16:36",
 		"selectedAction" : "WoC 9/30/2020 23:27",
 		"windowLabel" : "WoC 9/26/2020 13:48" } }
