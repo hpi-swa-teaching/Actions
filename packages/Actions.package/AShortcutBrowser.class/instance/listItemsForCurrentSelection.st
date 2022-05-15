@@ -2,6 +2,7 @@ as yet unclassified
 listItemsForCurrentSelection
 
 	| shortcuts items |
+	
 	shortcuts := AActions
 						shortcutsFor: self selectedAction 
 						in: self selectedClass 
