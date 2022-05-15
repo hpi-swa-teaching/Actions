@@ -2,7 +2,9 @@ toolbuilder
 createButtonSpecsWith: aToolBuilder
 
 	^ {
-		{'help' . #openHelpMenu . nil} .} 
+		{'Help' . #openHelpMenu . nil} .
+		{'Reset' . #resetShortcutsForSelectedClass . nil} .
+		{'Reset all' . #resetShortcuts . nil}} 
 		collect: [:each | 
 			self 
 				createButtonSpecWith: aToolBuilder 
