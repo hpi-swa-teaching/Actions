@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'Counter-Core' ]
+      #packages : [ 'Actions-Core' ]
     }
   }
 }
