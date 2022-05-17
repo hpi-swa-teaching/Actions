@@ -1,15 +1,15 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'Counter',
+      #baseline : 'Actions',
       #directory : 'packages',
       #platforms : [ #squeak ],
-      #load : [ 'tests' ]
+      #load : [ 'default' ]
     }
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'Counter-Core' ]
+      #packages : [ 'Actions' ]
     }
   }
 }
