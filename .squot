@@ -1,4 +1,7 @@
 OrderedDictionary {
 	'packages/BaselineOfActions.package' : #SquotCypressCodeSerializer,
-	'packages/Actions.package' : #SquotCypressCodeSerializer
+	'packages/Actions.package' : #SquotCypressCodeSerializer,
+	'packages/Actions-Core.package' : #SquotCypressCodeSerializer,
+	'packages/Actions-Tests.package' : #SquotCypressCodeSerializer,
+
 }
