@@ -26,5 +26,5 @@ helpText
  to reset your shortcuts of the class to default, press "no" if you want to cancel your action.
 
  2. Reset all shortcuts:
- Left-click the "Reset all"-Button next to the "Reset"-Button. Press "yes" to reset your shortcuts of the class to default, 
+ Left-click the "Reset all"-Button next to the "Reset"-Button. Press "yes" to reset your shortcuts of all classes to default, 
  press "no" if you want to cancel your action.' 
