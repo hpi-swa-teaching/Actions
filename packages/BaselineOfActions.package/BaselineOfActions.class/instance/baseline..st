@@ -4,6 +4,6 @@ baseline: spec
 	
 	spec for: #common do: [
 		spec 
-			package: 'Actions-Core';
-			group: 'default' with: #('Actions-Core')
+			package: 'Actions';
+			group: 'default' with: #('Actions')
 		].
