@@ -1,4 +1,4 @@
 as yet unclassified
 initialize
 
-	self registerInWorldMenu
+	TheWorldMenu registerOpenCommand: {'Shortcut Browser'. {self. #open}}
