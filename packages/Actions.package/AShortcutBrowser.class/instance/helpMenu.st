@@ -1,7 +1,12 @@
 accessing
-helpText
+helpMenu
 
-^' The shortcut browser is used to assign key combinations to different actions. Our shortcut browser is divided
+|a| 
+	a := DialogWindow new.
+	a title: 'How to use';
+	createButton: 'Thanks!' value: true;
+	exclusive: false;
+	message:' The shortcut browser is used to assign key combinations to different actions. Our shortcut browser is divided
  into two sections. In the left section you can choose between the different classes where you can use your shortcuts.
  After selecting a class you will see the available actions in the right section.
 
@@ -27,4 +32,6 @@ helpText
 
  2. Reset all shortcuts:
  Left-click the "Reset all"-Button next to the "Reset"-Button. Press "yes" to reset your shortcuts of all classes to default, 
- press "no" if you want to cancel your action.' 
+ press "no" if you want to cancel your action.'.
+
+^a

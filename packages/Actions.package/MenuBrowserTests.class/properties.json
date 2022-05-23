@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ActionsTest",
+	"name" : "MenuBrowserTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "ActionsTest",
 	"type" : "normal" }
