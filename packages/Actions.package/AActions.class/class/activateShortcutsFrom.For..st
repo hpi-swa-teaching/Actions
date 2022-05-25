@@ -7,7 +7,7 @@ activateShortcutsFrom: methods For: aClass
 				actions isDictionary ifTrue: [
 					actions keysAndValuesDo: [ :action :shortcut |
 						action clazz: aClass.			
-						(self testIfIsAction: action) ifTrue: [self addShortcut: shortcut for: action in: aClass].
+						((self testIfIsAction: action) and: shortcut notNil) ifTrue: [self addShortcut: shortcut for: action in: aClass].
 					].
 				].
 			].
