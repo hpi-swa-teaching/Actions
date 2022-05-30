@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"actions" : "KK 5/24/2022 20:16" },
+		"initialize" : "MaCl 5/21/2022 11:44" },
 	"instance" : {
 		"actionDuplicateWarning:" : "KK 5/24/2022 19:59",
 		"actionIndex" : "WoC 9/13/2020 00:42",
@@ -21,11 +22,12 @@
 		"createPluggableListSpecWith:" : "KK 5/24/2022 21:01",
 		"helpForItem:" : "WoC 9/28/2020 12:12",
 		"helpText" : "MaCl 5/19/2022 09:03",
-		"initialize" : "WoC 9/26/2020 14:01",
+		"initialize" : "MaCl 5/21/2022 10:49",
 		"keyPress:list:" : "KK 5/24/2022 21:03",
+		"helpMenu" : "MaCl 5/23/2022 10:34",
 		"listItemsForCurrentSelection" : "TA 5/15/2022 20:52",
 		"mainView" : "TA 5/14/2022 13:11",
-		"openHelpMenu" : "TA 5/7/2022 15:29",
+		"openHelpMenu" : "MaCl 5/23/2022 10:34",
 		"removeShortcut:" : "WoC 9/26/2020 18:54",
 		"resetShortcuts" : "KK 5/14/2022 16:17",
 		"resetShortcutsForSelectedClass" : "KK 5/14/2022 16:36",
