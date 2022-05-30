@@ -1,9 +1,9 @@
 as yet unclassified
 checkForDuplicatesFor: aClass
 
-	| duplicateActionTitle |
+	| duplicateAction |
 	
-	duplicateActionTitle := AActions checkIfDuplicatesExistsFor: aClass.
-	duplicateActionTitle ifNotNil: [self actionDuplicateWarning: duplicateActionTitle]
+	duplicateAction := AActions checkIfDuplicatesExistsFor: aClass.
+	duplicateAction ifNotNil: [self actionDuplicateWarning: duplicateAction]
 	
 	
