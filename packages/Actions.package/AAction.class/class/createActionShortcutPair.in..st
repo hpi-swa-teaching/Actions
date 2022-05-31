@@ -1,5 +1,5 @@
 as yet unclassified
-createActionShortcutPair: aCollection in: aDictionary
+createActionShortcutPair: aCollection in: anotherCollection
 	|shortcut buttonNumber keyValue|
 	
 	"checks char, symbol check"
@@ -17,6 +17,6 @@ createActionShortcutPair: aCollection in: aDictionary
 			ifFalse:[^self error: 'You tried to create the default Action ', (aCollection first) asString , ' but did not meet the requirements for the API. Please check your #actions'].].
 		
 	
-	^aDictionary at: (self from: aCollection) put: shortcut;
+	^anotherCollection add: {(self from: aCollection). shortcut};
 	yourself.
 	
