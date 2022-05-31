@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ActionsTest",
+		"shortcutBrowser" ],
+	"name" : "ShortcutBrowserTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "ActionsTest",
 	"type" : "normal" }

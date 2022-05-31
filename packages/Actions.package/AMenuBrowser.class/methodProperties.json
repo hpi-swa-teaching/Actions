@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"actions" : "wb 5/31/2022 09:19" },
+		"actions" : "wb 5/31/2022 09:19",
+		"actions2" : "KK 5/24/2022 20:03" },
 	"instance" : {
 		"addAction" : "WoC 10/15/2020 00:02",
 		"addNode:" : "WoC 10/15/2020 14:04",
@@ -18,7 +19,7 @@
 		"getChildren:" : "WoC 10/15/2020 00:10",
 		"hasChildren:" : "WoC 10/15/2020 00:10",
 		"helpFor:" : "WoC 10/15/2020 00:23",
-		"keyPress:tree:event:" : "WoC 10/15/2020 03:04",
+		"keyPress:tree:event:" : "KK 5/30/2022 18:18",
 		"mainView" : "WoC 10/15/2020 00:07",
 		"moveDown" : "WoC 10/15/2020 03:54",
 		"moveUp" : "WoC 10/15/2020 03:54",
