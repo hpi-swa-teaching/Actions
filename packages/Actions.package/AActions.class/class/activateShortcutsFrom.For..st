@@ -4,10 +4,11 @@ activateShortcutsFrom: methods For: aClass
 		
 			methods do: [ :method |
 				actions := method valueWithReceiver: aClass arguments: {}.
-				Transcript show: actions isCollection.
-				Transcript show: actions.
-				actions isCollection ifTrue: [
+					Transcript show: actions.
+				((actions isDictionary not) and: actions isCollection) ifTrue: [
 					actions collect: [ :each |
+						Transcript show: each isCollection.
+						Transcript show: each.
 						action := each first.
 						Transcript show: action.
 						shortcut := each second.
