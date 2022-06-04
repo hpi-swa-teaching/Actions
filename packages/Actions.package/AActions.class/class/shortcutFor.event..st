@@ -5,11 +5,12 @@ shortcutFor: anObject event: evt
 	evt isKeyboard
 		ifFalse: [^ self].
 	
+
 	classes := anObject class withAllSuperclasses.
-	classes do: [:each | 
+	classes do: [:class | 
 		Shortcuts 
-		at: each
-		ifPresent: [:dict | dict 
+		at: class
+		ifPresent: [:actionsDict | actionsDict 
 							at: evt
-							ifPresent: [:association | association value for: anObject. ^ self]]]
+							ifPresent: [:association | association value for: anObject at: evt position. ^ self]]]
 	

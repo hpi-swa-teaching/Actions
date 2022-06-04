@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"actions" : "KK 5/24/2022 20:16",
+		"actions" : "KK 6/4/2022 15:23",
 		"initialize" : "MaCl 5/21/2022 11:44" },
 	"instance" : {
 		"actionDuplicateWarning:" : "KK 5/24/2022 19:59",
@@ -12,14 +12,16 @@
 		"addShortcut:" : "WoC 9/28/2020 13:13",
 		"browse:For:" : "KK 5/24/2022 19:57",
 		"browse:selector:" : "KK 5/24/2022 18:55",
-		"browseActionsForSelectedClass" : "KK 5/24/2022 21:04",
+		"browseActionsForSelectedClass" : "KK 6/4/2022 16:04",
 		"browseClassSide:selector:" : "KK 5/24/2022 18:55",
+		"browseSelectedAction" : "KK 6/4/2022 16:04",
 		"buttonPanelHeight" : "TA 5/7/2022 15:27",
 		"checkForDuplicatesFor:" : "KK 5/19/2022 11:54",
 		"classIndex:" : "TA 5/15/2022 21:20",
 		"createButtonSpecsWith:" : "KK 5/14/2022 16:23",
-		"createMainListSpecWith:" : "KK 5/24/2022 20:34",
-		"createPluggableListSpecWith:" : "KK 5/24/2022 21:01",
+		"createMainListSpecWith:" : "KK 6/4/2022 15:15",
+		"createPluggableListSpecWith:" : "KK 6/4/2022 14:25",
+		"enumListkeyPress:list:" : "KK 6/4/2022 15:37",
 		"helpForItem:" : "WoC 9/28/2020 12:12",
 		"helpMenu" : "MaCl 5/23/2022 10:34",
 		"initialize" : "MaCl 5/21/2022 10:49",
