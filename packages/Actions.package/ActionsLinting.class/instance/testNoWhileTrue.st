@@ -1,3 +1,3 @@
 code-style
 testNoWhileTrue
-	self ArbitraryCodeRule: #smallLintWhileTrue
+	"self ArbitraryCodeRule: #smallLintWhileTrue"
