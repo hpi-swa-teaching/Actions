@@ -4,14 +4,15 @@ actionDuplicateWarning: aAction
 | window browseActionsButton| 
 
 window := DialogWindow new.
-window createButton: 'OK' value: true color: (Color r: 0.4 g: 0.0 b: 0.051).
+window createButton: 'Ignore' value: true.
 
-browseActionsButton := window createCancelButton: 'Browse action' value: false.
+browseActionsButton := window createButton: 'Browse actions' value: false color: Color lightGreen.
 browseActionsButton action: [self browse: aAction For: self selectedClass. window closeDialog].
 
 window title: 'Warning'.
 window message: 'You assigned the name "' , aAction title asString , '" to different actions
 '.
+window updateButtonExtent: 110@15.
 
 window openAsTool.
 
