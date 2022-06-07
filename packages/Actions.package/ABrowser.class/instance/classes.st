@@ -1,4 +1,4 @@
 accessing
 classes
 
-	^ AActions classesWithActions
+	^ self aactionsApi classesWithActions

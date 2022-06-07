@@ -3,7 +3,7 @@ checkForDuplicatesFor: aClass
 
 	| duplicateAction |
 	
-	duplicateAction := AActions checkIfDuplicatesExistsFor: aClass.
+	duplicateAction := self aactionsApi checkIfDuplicatesExistsFor: aClass.
 	duplicateAction ifNotNil: [self actionDuplicateWarning: duplicateAction]
 	
 	

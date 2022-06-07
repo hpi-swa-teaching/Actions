@@ -3,4 +3,4 @@ actions
 
 	self hasClassSelected
 		ifFalse: [^ {}].
-	^ AActions actionsFor: self selectedClass
+	^ self aactionsApi actionsFor: self selectedClass

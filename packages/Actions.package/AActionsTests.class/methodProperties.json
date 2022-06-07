@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "KK 6/7/2022 10:27",
+		"testAddAndRemoveShortcut" : "KK 6/7/2022 10:38",
+		"testAddAndResetShortcut" : "KK 6/7/2022 10:32",
+		"testCheckForExistingDuplicateActions" : "KK 6/6/2022 23:57",
+		"testCheckForNonExistingDuplicateActions" : "KK 6/6/2022 23:58",
+		"testSelectorsWithActionsDefinedForAClass" : "KK 6/6/2022 23:58",
+		"testSelectorsWithAnActionDefinedForAClass" : "KK 6/6/2022 23:58" } }
