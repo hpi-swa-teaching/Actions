@@ -1,5 +1,5 @@
 initilization
 testCheckForNonExistingDuplicateActions
 
-	self assert: (AActions checkIfDuplicatesExistsFor: MockActionsC) equals: nil
+	self assert: (ATestAActions checkIfDuplicatesExistsFor: MockActionsC) equals: nil
 	

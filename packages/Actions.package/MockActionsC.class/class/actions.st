@@ -1,7 +1,7 @@
 as yet unclassified
 actions 
 
-	<wantsActions>
+	<wantsDuplicateTestActions>
 	^ { 
 		self mockActionMoveUpAsList.
 	} collect: [:each | AAction from: each]

@@ -1,4 +1,4 @@
 initilization
 tearDown
 
-	self shortcutBrowser: nil
+	self shortcutBrowser: nil.

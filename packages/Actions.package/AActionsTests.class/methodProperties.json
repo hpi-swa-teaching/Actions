@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCheckForExistingDuplicateActions" : "TA 5/31/2022 10:37",
-		"testCheckForNonExistingDuplicateActions" : "TA 5/31/2022 10:33",
-		"testSelectorsWithActionsDefinedForAClass" : "TA 5/31/2022 10:54",
-		"testSelectorsWithAnActionDefinedForAClass" : "TA 5/31/2022 11:01" } }
+		"setUp" : "KK 6/7/2022 10:27",
+		"testAddAndRemoveShortcut" : "KK 6/7/2022 10:38",
+		"testAddAndResetShortcut" : "KK 6/7/2022 10:32",
+		"testCheckForExistingDuplicateActions" : "KK 6/6/2022 23:57",
+		"testCheckForNonExistingDuplicateActions" : "KK 6/6/2022 23:58",
+		"testSelectorsWithActionsDefinedForAClass" : "KK 6/6/2022 23:58",
+		"testSelectorsWithAnActionDefinedForAClass" : "KK 6/6/2022 23:58" } }
