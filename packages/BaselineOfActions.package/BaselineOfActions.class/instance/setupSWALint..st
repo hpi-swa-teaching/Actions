@@ -17,7 +17,7 @@ setupSWALint: spec
 						requires: 'SwaLint-Preferences'
 				];
 			
-				postLoadDoIt: #postLoad;
+				postLoadDoIt: #installSwaLint;
 				
 				package: 'SwaLint-PlugIns' with: [
 					spec 

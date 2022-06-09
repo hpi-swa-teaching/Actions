@@ -1,5 +1,5 @@
 as yet unclassified
-postLoad
+installSwaLint
 
 	Smalltalk globals at: #SwaLint
 		ifPresent: [:swalint | swalint perform: #install ]

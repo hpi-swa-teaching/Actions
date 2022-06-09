@@ -11,6 +11,7 @@ baseline: spec
 					versionString: #'stable';
 					loads: #('Core' );
 					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+				
 			"SwaLint setup"
 			package: 'SwaLint-Preferences' with: [
 				spec
@@ -21,6 +22,9 @@ baseline: spec
 					file: 'SwaLint-Core-cypress.1';
 					repository: 'github://hpi-swa-teaching/SwaLint:main/packages';
 					requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
+				
+			postLoadDoIt: #installSwaLint;
+			
 			package: 'SwaLint-PlugIns' with: [
 				spec
 					file: 'SwaLint-PlugIns-cypress.1';
@@ -28,7 +32,7 @@ baseline: spec
 					requires: 'SwaLint-Core'];
 				
 				package: 'Actions';
-				group: 'default' with: #('Actions' 'SwaLint-Core' 'SwaLint-Preferences' 'SwaLint-PlugIns');
+				group: 'default' with: #('Actions' 'SwaLint-Core' 'SwaLint-PlugIns');
 				group: 'Core' with: #('SwaLint-Core')
 
 		].
