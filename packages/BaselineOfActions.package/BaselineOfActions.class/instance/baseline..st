@@ -28,6 +28,7 @@ baseline: spec
 					requires: 'SwaLint-Core'];
 				
 				package: 'Actions';
-				group: 'default' with: #('Actions' 'SwaLint-Core' 'SwaLint-Preferences' 'SwaLint-PlugIns')
+				group: 'default' with: #('Actions' 'SwaLint-Core' 'SwaLint-Preferences' 'SwaLint-PlugIns');
+				group: 'Core' with: #('SwaLint-Core')
 
 		].
