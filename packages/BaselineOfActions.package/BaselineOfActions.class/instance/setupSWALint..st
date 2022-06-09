@@ -14,7 +14,7 @@ setupSWALint: spec
 						file: 'SwaLint-Core-cypress.1';
 						repository: 
 								'github://hpi-swa-teaching/SwaLint:develop/packages';
-						requires: #('RefactoringBrowser' 'SwaLint-Preferences')
+						requires: #('SwaLint-Preferences')
 				];
 			
 				postLoadDoIt: #postLoad;
