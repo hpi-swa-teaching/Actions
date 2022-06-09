@@ -27,6 +27,6 @@ baseline: spec
 						repository: 'github://hpi-swa-teaching/SwaLint:develop/packages'; requires: 'SwaLint-Core'
 				];
 				package: 'Actions';
-				group: 'default' with: #('Actions')
-			
+				group: 'default' with: #('Actions' . 'SwaLint-Core' .  'SwaLint-Preferences' .  'SwaLint-PlugIns')
+
 		].
