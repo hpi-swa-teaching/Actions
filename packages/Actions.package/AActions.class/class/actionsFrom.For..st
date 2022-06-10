@@ -11,6 +11,7 @@ methodResult isDictionary
 	ifFalse: [
 	methodResult isCollection
 		ifTrue: [(methodResult do: [:ea |self add: ea first IfAnActionTo: actions])] 
+
 		ifFalse: [self add: methodResult IfAnActionTo: actions]
 	].
 ^ actions
