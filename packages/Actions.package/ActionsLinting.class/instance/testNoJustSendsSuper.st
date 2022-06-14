@@ -1,3 +1,3 @@
 code-style
 testNoJustSendsSuper
-	self ArbitraryCodeRule: #smallLintJustSendsSuper
+	self assertArbitraryCodeRules: {#smallLintJustSendsSuper}

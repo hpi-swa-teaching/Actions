@@ -1,6 +1,5 @@
 as yet unclassified
 actions
-
 	|action1 shortcut1  |
 	
 	<wantsActions>
@@ -13,4 +12,4 @@ actions
 	
 	^ Dictionary new
 			at: action1 put: shortcut1;
-			yourself.
+			yourself
