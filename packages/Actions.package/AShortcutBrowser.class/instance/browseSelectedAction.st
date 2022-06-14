@@ -1,4 +1,5 @@
 as yet unclassified
 browseSelectedAction
-
-	self browse: self selectedAction For: self selectedClass.
+	
+	self selectedClass ifNotNil: [self browse: self selectedAction For: self selectedClass]
+	
