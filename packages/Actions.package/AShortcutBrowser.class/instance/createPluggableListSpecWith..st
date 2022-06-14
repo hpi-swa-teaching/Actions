@@ -6,6 +6,7 @@ createPluggableListSpecWith: aToolBuilder
 		list: #mainView;
 		getIndex: #actionIndex; 
 		keystrokePreview: #keyPress:list:;
+		name: #RightSIde;
 		setIndex: #actionIndex:; 
 		menu: #actionMenu:;
 		autoDeselect: false;

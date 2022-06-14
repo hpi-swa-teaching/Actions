@@ -5,4 +5,6 @@ resetShortcutsForSelectedClass
 
 	isResetConfirmed := (PopUpMenu confirm: 'Do you want to reset ', self selectedClass, ' shortcuts to default?').
 	isResetConfirmed ifTrue: 
-		[self aactionsApi resetDefaultShortcutsFor: self selectedClass].
+		[self aactionsApi resetDefaultShortcutsFor: self selectedClass.
+			self changed: #mainView.
+		].

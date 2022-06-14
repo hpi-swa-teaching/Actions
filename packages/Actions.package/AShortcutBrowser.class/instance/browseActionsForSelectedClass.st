@@ -1,6 +1,9 @@
 as yet unclassified
 browseActionsForSelectedClass
-
-	(self aactionsApi selectorsWithActionsDefinedFor: self selectedClass) do: [ :aSelector |
-	 self browseClassSide: self selectedClass selector: aSelector.
-].
+	
+	self selectedClass ifNotNil: [
+		(self aactionsApi selectorsWithActionsDefinedFor: self selectedClass) do: [ :aSelector |
+			self browseClassSide: self selectedClass selector: aSelector.
+		].
+	].
+	
