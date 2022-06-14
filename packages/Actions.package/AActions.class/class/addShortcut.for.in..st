@@ -13,4 +13,4 @@ addShortcut: aShortcut for: anAction in: aClass
 				isResetConfirmed 
 						ifFalse:[^shortcutDict ]].
 
-	^ shortcutDict at: aShortcut put: anAction. 
+	^ shortcutDict at: aShortcut put: anAction 

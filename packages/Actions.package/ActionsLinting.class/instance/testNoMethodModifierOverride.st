@@ -1,3 +1,3 @@
 code-style
 testNoMethodModifierOverride
-	self ArbitraryCodeRule: #smallLintMethodModifierOverride
+	self assertArbitraryCodeRules: {#smallLintMethodModifierOverride}

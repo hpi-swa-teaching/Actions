@@ -20,5 +20,5 @@ buildWith: aToolBuilder
 		add: enumListSpec;
 		add: mainListSpec.
 	
-	^ aToolBuilder buildPluggableWindow: windowSpec.
+	^ aToolBuilder buildPluggableWindow: windowSpec
 	

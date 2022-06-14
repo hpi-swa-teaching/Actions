@@ -1,3 +1,3 @@
 code-style
 testNoDefinesEqualNotHash
-	self ArbitraryCodeRule: #smallLintDefinesEqualNotHash
+	self assertArbitraryCodeRules: {#smallLintDefinesEqualNotHash}
