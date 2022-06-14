@@ -7,11 +7,4 @@
 		"objectsToTest" : "KK 6/14/2022 11:07",
 		"runArbitraryCodeRules:on:" : "KK 6/14/2022 11:17",
 		"testDotReturnConsistency" : "KK 6/14/2022 17:36",
-		"testNoDefinesEqualNotHash" : "KK 6/14/2022 11:13",
-		"testNoEqualNotUsed" : "KK 6/14/2022 17:44",
-		"testNoEqualsTrue" : "KK 6/14/2022 17:44",
-		"testNoExtraBlock" : "KK 6/14/2022 17:44",
-		"testNoJustSendsSuper" : "KK 6/14/2022 17:44",
-		"testNoMethodModifierOverride" : "KK 6/14/2022 17:44",
-		"testNoReturnsIfTrue" : "KK 6/14/2022 11:14",
-		"testNoWhileTrue" : "MaCl 6/6/2022 14:38" } }
+		"testForNoUnnecessaryCode" : "KK 6/14/2022 21:45" } }
