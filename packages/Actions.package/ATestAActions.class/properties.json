@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PragmaKeywords" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ATestAActions",
+	"pools" : [
+		 ],
+	"super" : "AActions",
+	"type" : "normal" }

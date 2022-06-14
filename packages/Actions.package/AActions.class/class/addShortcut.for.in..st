@@ -7,9 +7,10 @@ addShortcut: aShortcut for: anAction in: aClass
 	
 	(duplicateExists)
 			ifTrue: [isResetConfirmed := (PopUpMenu confirm: 
-				'The Key combination you are about to assign is already used. Do you want to override: ', 
+				'The Key combination you are about to assign is already used.
+				 Do you really want to override: ', 
 				(shortcutDict at: aShortcut), ' ?').
 				isResetConfirmed 
 						ifFalse:[^shortcutDict ]].
 
-	^ shortcutDict at: aShortcut put: anAction. 
+	^ shortcutDict at: aShortcut put: anAction 

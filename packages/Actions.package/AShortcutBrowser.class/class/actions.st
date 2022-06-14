@@ -18,4 +18,4 @@ actions
 	
 	^ Dictionary new
 			at: action1 put: shortcut1;
-			yourself.
+			yourself

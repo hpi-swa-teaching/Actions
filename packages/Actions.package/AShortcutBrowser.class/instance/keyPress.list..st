@@ -1,5 +1,5 @@
 handle shortcuts
 keyPress: evt list: list
 
-	AActions shortcutFor: self event: evt.
-	^true.
+	self aactionsApi shortcutFor: self event: evt.
+	^true

@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "MaCl 5/23/2022 10:06",
+		"is:equalTo:" : "KK 6/13/2022 13:58",
+		"is:subsetOf:" : "KK 6/13/2022 13:53",
+		"setUp" : "KK 6/6/2022 23:57",
+		"systemWindowsFor:" : "KK 6/7/2022 00:01",
+		"systemWindowsInclude:" : "KK 6/7/2022 00:08",
 		"tearDown" : "MaCl 5/23/2022 10:06" } }
