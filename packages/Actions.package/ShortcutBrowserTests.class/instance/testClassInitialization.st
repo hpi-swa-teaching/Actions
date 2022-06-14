@@ -1,6 +1,6 @@
 opening
 testClassInitialization
 
-	AShortcutBrowser initialize.
+	ATestShortcutBrowser initialize.
 	self assert: true equals: (TheWorldMenu registry includes: 
-	{'Shortcut Browser'. {AShortcutBrowser . #open}})
+	{'Shortcut Browser'. {ATestShortcutBrowser . #open}})

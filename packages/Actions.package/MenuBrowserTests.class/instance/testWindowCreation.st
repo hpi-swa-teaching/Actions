@@ -2,7 +2,6 @@ opening
 testWindowCreation
 
 	self removeAMenuBrowserWindows	.
-	AMenuBrowser open.
-	self assert: (SystemWindow windowsIn: World satisfying: [:w | w label = 'Menu Browser']) size
-		equals: 1.
+	ATestMenuBrowser open.
+	self assert: (self systemWindowsInclude: 'Menu Browser').
 	self removeAMenuBrowserWindows	

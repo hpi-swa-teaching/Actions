@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ArbitraryCodeRule:" : "MaCl 6/4/2022 15:57",
+		"defaultTimeout" : "MaCl 6/4/2022 15:58",
+		"testNoDefinesEqualNotHash" : "MaCl 6/4/2022 15:59",
+		"testNoEqualNotUsed" : "MaCl 6/4/2022 15:59",
+		"testNoEqualsTrue" : "MaCl 6/4/2022 15:59",
+		"testNoExtraBlock" : "MaCl 6/4/2022 16:00",
+		"testNoJustSendsSuper" : "MaCl 6/4/2022 16:00",
+		"testNoMethodModifierOverride" : "MaCl 6/4/2022 16:00",
+		"testNoReturnsIfTrue" : "MaCl 6/4/2022 16:00",
+		"testNoWhileTrue" : "MaCl 6/6/2022 14:38" } }

@@ -1,5 +1,6 @@
 as yet unclassified
 actions
+
 	|action1 shortcut1  |
 	
 	<wantsActions>
