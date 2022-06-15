@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DefaultShortcutAPITests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
