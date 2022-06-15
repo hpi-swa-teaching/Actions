@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"actions" : "wb 5/17/2022 17:20",
-		"defaultActions" : "KK 5/11/2022 13:40" },
+		"defaultActions" : "KK 6/14/2022 17:10" },
 	"instance" : {
 		"addAction" : "WoC 10/15/2020 00:02",
 		"addNode:" : "WoC 10/15/2020 14:04",
@@ -24,7 +24,7 @@
 		"moveDown" : "WoC 10/15/2020 03:54",
 		"moveUp" : "WoC 10/15/2020 03:54",
 		"openAddMenu" : "WoC 9/26/2020 22:51",
-		"removeItem" : "WoC 9/29/2020 12:02",
+		"removeItem" : "MaCl 6/13/2022 14:14",
 		"selectedItem" : "WoC 9/26/2020 19:47",
 		"selectedItem:" : "WoC 10/15/2020 02:07",
 		"selectedPath" : "WoC 9/26/2020 19:43",

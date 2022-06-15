@@ -1,3 +1,3 @@
 code-style
 testNoExtraBlock
-	self ArbitraryCodeRule: #smallLintExtraBlock
+	self assertArbitraryCodeRules: {#smallLintExtraBlock}

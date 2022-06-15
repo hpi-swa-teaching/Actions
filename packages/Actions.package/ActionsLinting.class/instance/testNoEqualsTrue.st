@@ -1,3 +1,3 @@
 code-style
 testNoEqualsTrue
-	self ArbitraryCodeRule: #smallLintEqualsTrue
+	self assertArbitraryCodeRules: {#smallLintEqualsTrue}

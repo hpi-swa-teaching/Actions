@@ -17,4 +17,4 @@ defaultActions
 	^ Dictionary new
 			at: action1 put: shortcut1;
 			at: action2 put: shortcut2;
-			yourself.
+			yourself

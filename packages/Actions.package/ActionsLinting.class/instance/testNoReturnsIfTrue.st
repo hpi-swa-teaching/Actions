@@ -1,3 +1,3 @@
 code-style
 testNoReturnsIfTrue
-	self ArbitraryCodeRule: #smallLintReturnsIfTrue
+	self assertArbitraryCodeRules: {#smallLintReturnsIfTrue}

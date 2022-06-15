@@ -5,5 +5,6 @@ resetShortcuts
 	isResetConfirmed := (PopUpMenu confirm: 'Danger: Do you want to reset all shortcuts to default?').
 	isResetConfirmed ifTrue: 
 
-		[self aactionsApi resetDefaultShortcuts].
-
+		[self aactionsApi resetDefaultShortcuts.
+     self changed: #mainView. 
+    ].
