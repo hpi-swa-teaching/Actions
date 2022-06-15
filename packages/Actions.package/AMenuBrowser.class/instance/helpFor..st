@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 helpFor: aTreeNode
 
 	^ aTreeNode description

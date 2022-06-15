@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 actionMenu: aMenu
 
 	^ self menu: aMenu for: #(actionsMenu)

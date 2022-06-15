@@ -1,4 +1,4 @@
-as yet unclassified
+browsing
 browseActionsForSelectedClass
 
 	(self aactionsApi selectorsWithActionsDefinedFor: self selectedClass) do: [ :aSelector |

@@ -1,4 +1,4 @@
-as yet unclassified
+navigating
 actionRoots
 
 	^ AActions actionsFor: self actionHolder

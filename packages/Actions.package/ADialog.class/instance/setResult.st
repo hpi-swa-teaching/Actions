@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setResult
 
 	self subclassResponsibility

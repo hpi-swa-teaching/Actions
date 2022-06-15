@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 classIndex: anInteger
 
 	super classIndex: anInteger.
