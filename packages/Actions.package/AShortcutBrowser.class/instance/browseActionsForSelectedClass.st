@@ -5,5 +5,5 @@ browseActionsForSelectedClass
 	
 	systemNavigator := SystemNavigation new.
 	(self selectedClass) ifNotNil: [methodList := systemNavigator allMethodsSelect: [:method | AActions hasAnyPragmas: method] localTo: self selectedClass.
-	systemNavigator browseMessageList: methodList name: 'All Action Definitions of Class: '  , self selectedClass.].
+	systemNavigator browseMessageList: methodList name: 'All Action Definitions of Class: '  , self selectedClass.]
 
