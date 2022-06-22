@@ -1,13 +1,15 @@
 default shortcuts
 activateShortcutsFrom: methods For: aClass
+		|actions action shortcut|
 		
 			methods do: [ :method |
-				| actions |
 				actions := method valueWithReceiver: aClass arguments: {}.
-				actions isDictionary ifTrue: [
-					actions keysAndValuesDo: [ :action :shortcut |
+				((actions isDictionary not) and: actions isCollection) ifTrue: [
+					actions collect: [ :each |		
+						action := each first.
+						shortcut := each second.
 						action clazz: aClass.			
-						(self testIfIsAction: action) ifTrue: [self addShortcut: shortcut for: action in: aClass].
+						((self testIfIsAction: action) and: shortcut notNil) ifTrue: [self addShortcut: shortcut for: action in: aClass].
 					].
 				].
 			].

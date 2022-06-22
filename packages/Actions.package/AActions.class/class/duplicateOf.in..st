@@ -6,5 +6,6 @@ duplicateOf: aShortcut in: aDict
 	
 	"check if keystring already exisists in aDict"
 	keys do: [:key | (key keyString = aShortcut keyString)
-					ifTrue: [Transcript show: (key keyString = aShortcut keyString). ^true]].
-	^false
+
+	ifTrue: [^key]].
+	^nil
