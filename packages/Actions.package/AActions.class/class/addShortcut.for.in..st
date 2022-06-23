@@ -10,7 +10,7 @@ addShortcut: aShortcut for: anAction in: aClass
 				'The Key combination you are about to assign is already used. Do you want to override: ', 
 				(shortcutDict at: duplicateKey), ' ?').
 				isResetConfirmed 
-					ifTrue:[^ shortcutDict at: duplicateKey put: anAction. ]
+					ifTrue:[^ shortcutDict at: duplicateKey put: anAction]
 					ifFalse:[^shortcutDict ]].
 
-	^ shortcutDict at: aShortcut put: anAction. 
+	^ shortcutDict at: aShortcut put: anAction
