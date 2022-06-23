@@ -9,5 +9,5 @@ actions
 		{'Add line' . #addSeparator . 'Adds a seperator/line'. $a . #cmdPressed}.
 		{'Remove' . #removeItem . 'Removes the currently selected item'. $r . #cmdPressed}.
 		{'Add...' . #addAction . 'Opens a dialog to select actions to be added to the list'. $c . #cmdPressed}.
-	}collect: [:each | AAction createActionShortcutPair: each].
+	}collect: [:each | AAction createActionShortcutPair: each]
 	
