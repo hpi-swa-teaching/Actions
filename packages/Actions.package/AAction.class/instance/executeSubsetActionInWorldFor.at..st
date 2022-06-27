@@ -5,4 +5,5 @@ executeSubsetActionInWorldFor: anObject at: aPosition
 			for: anObject 
 			at: aPosition 
 			keyboardFocus: self keyboardFocusedMorphInWorld
+			or: false
 	
