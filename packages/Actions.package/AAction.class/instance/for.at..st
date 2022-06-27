@@ -2,6 +2,6 @@ evaluating
 for: anObject at: aPosition
 	
 	self action isDictionary 
-		ifTrue: [self executeSubsetActionIn: World for: anObject at: aPosition]
+		ifTrue: [self executeSubsetActionInWorldFor: anObject at: aPosition]
 		ifFalse: [self for: anObject]
 	
