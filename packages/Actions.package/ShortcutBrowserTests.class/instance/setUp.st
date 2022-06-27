@@ -3,5 +3,5 @@ setUp
 	
 	super setUp.
 	
-	self shortcutBrowser: ATestMenuBrowser new.
+	self shortcutBrowser: ATestShortcutBrowser new.
 	ATestAActions pragmaKeywords: { #wantsTestActions }.
