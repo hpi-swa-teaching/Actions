@@ -2,11 +2,11 @@
 	"class" : {
 		"lastStoredRun" : "wb 6/22/2022 16:45" },
 	"instance" : {
-		"removeAShortcutBrowserWindows" : "KK 6/7/2022 00:04",
-		"setUp" : "KK 6/6/2022 23:59",
+		"removeAShortcutBrowserWindows" : "KK 6/23/2022 17:39",
+		"setUp" : "KK 6/27/2022 16:13",
 		"shortcutBrowser" : "MaCl 5/23/2022 10:15",
 		"shortcutBrowser:" : "MaCl 5/23/2022 10:15",
 		"tearDown" : "KK 6/6/2022 23:59",
-		"testClassInitialization" : "KK 6/6/2022 23:59",
-		"testHelpWindow" : "KK 5/31/2022 11:25",
-		"testWindowCreation" : "KK 6/7/2022 00:05" } }
+		"testClassInitialization" : "KK 6/27/2022 16:17",
+		"testHelpWindow" : "KK 6/27/2022 16:17",
+		"testWindowCreation" : "KK 6/23/2022 17:39" } }

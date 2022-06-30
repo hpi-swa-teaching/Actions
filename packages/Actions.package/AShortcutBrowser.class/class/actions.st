@@ -5,7 +5,7 @@ actions
 
 	browseActions := Dictionary new
 		at: #leftSideClassList put: #browseActionsForSelectedClass;
-		at: #rightSideMainList put: #browseSelectedAction;
+		at: #RightSide put: #browseSelectedAction;
 		yourself.
 	^{   
 		{'Browse actions' . browseActions .'Open the methods where actions are defined'. $b . #cmdPressed}.

@@ -3,7 +3,7 @@ shortcutFor: anObject event: evt
 
 	| classes |
 	evt isKeyboard
-		ifFalse: [^ self].
+		ifFalse: [^ false].
 	
 
 	classes := anObject class withAllSuperclasses.
@@ -12,5 +12,7 @@ shortcutFor: anObject event: evt
 		at: class
 		ifPresent: [:actionsDict | actionsDict 
 							at: evt
-							ifPresent: [:association | association value for: anObject at: evt position. ^ self]]]
+							ifPresent: [:association | association value for: anObject at: evt position. ^ true]]].
+					
+	^ false
 	

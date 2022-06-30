@@ -1,5 +1,5 @@
 actions
 removeAShortcutBrowserWindows
 
-	(self systemWindowsFor: 'Shortcut Browser') do: [:each |
+	(self systemWindowsFor: ATestShortcutBrowser windowLabel) do: [:each |
 		each model canDiscardEdits ifTrue: [each delete]].
