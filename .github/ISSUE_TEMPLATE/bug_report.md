@@ -2,7 +2,7 @@
 name: Bug report
 about: Bugs to be solved
 title: ''
-labels: bug, High Priority
+labels: bug, documentation, High Priority
 assignees: ''
 
 ---
