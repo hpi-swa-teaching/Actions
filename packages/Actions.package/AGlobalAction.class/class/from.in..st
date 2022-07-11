@@ -2,7 +2,7 @@ as yet unclassified
 from: aCollection in: aClass
 |aGlobalActionShortcutPair aGlobalAction aShortcut|
 
-	aGlobalActionShortcutPair := AGlobalActions from: aCollection first.
+	aGlobalActionShortcutPair := AGlobalActions globalActionFrom: aCollection first.
 	aGlobalAction := aGlobalActionShortcutPair first.
 	aShortcut := aGlobalActionShortcutPair second.
 	
