@@ -1,6 +1,7 @@
 accessing
 classNames
-	|renamedClasses|
+
+	| renamedClasses |
 	
 	renamedClasses := self renamedClasses.
 	

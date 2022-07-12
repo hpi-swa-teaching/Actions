@@ -3,5 +3,5 @@ renamedClasses
 
 	^Dictionary new
 		at:'AMenuBrowser' put:'AlternativeNameForMenuBrowser'; 
-		at: 'AShortcutBrowser' put: 'TestNameSCB';
+		"at: 'AShortcutBrowser' put: 'TestNameSCB';"
 		yourself
