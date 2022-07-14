@@ -1,3 +1,4 @@
 default shortcuts
 removeShortcutsFor: aClass
-	Shortcuts removeKey: aClass ifAbsent: [].
+
+	(Shortcuts at: aClass) keysDo: [:shortcut | self removeShortcut: shortcut in: aClass]

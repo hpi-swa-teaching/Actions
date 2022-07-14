@@ -1,5 +1,5 @@
 as yet unclassified
-createActionShortcutPair: aCollection 
+createActions: aCollection 
 	|shortcut apiCallLength|
 
 	apiCallLength := 5.
