@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"actions" : "KK 6/27/2022 14:04",
-		"alternativeActionsClassName" : "TA 7/14/2022 11:42" },
+		"alternativeActionsClassName" : "TA 7/14/2022 11:42",
+		"actions" : "wb 7/14/2022 10:38",
+		"globalActions" : "MaCl 7/11/2022 16:05" },
 	"instance" : {
 		"addAction" : "WoC 10/15/2020 00:02",
 		"addNode:" : "WoC 10/15/2020 14:04",
