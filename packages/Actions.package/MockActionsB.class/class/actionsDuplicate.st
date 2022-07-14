@@ -4,4 +4,4 @@ actionsDuplicate
 	<wantsDuplicateTestActions>
 	^ { 
 		self mockActionMoveUpAsList.
-	} collect: [:each | AAction createActionShortcutPair: each]
+	} collect: [:each | AAction createActions: each]
