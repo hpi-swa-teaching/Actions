@@ -1,4 +1,4 @@
 as yet unclassified
-alternativeName
+alternativeActionsClassName
 
 	^'AlternativeMenuBrowser2'

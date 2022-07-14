@@ -1,4 +1,4 @@
 accessing
 classNames
 	
-	^ self classes collect: [:each | (each respondsTo: #alternativeName) ifTrue: [each alternativeName] ifFalse: [each name]]
+	^ self classes collect: [:each | (each respondsTo: #alternativeActionsClassName) ifTrue: [each alternativeActionsClassName] ifFalse: [each name]]
