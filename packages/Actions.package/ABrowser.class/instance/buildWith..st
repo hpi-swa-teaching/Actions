@@ -9,11 +9,12 @@ buildWith: aToolBuilder
 	
 	enumListSpec := aToolBuilder pluggableListSpec new
 		model: self;
-		list: #classes;
+		list: #classNames;
 		keystrokePreview: #enumListkeyPress:list:;
 		name: #leftSideClassList;
 		getIndex: #classIndex; 
 		setIndex: #classIndex:; 
+		helpItem: #itemName:;
 		frame: (0@0 corner: 0.25@1).
 		
 	mainListSpec := self createMainListSpecWith: aToolBuilder.
@@ -24,3 +25,4 @@ buildWith: aToolBuilder
 	
 	^ aToolBuilder buildPluggableWindow: windowSpec
 	
+

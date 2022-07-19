@@ -9,4 +9,4 @@ actions
 		yourself.
 	^{   
 		{'Browse actions' . browseActions .'Open the methods where actions are defined'. $b . #cmdPressed}.
-	}collect: [:each | AAction createActionShortcutPair: each]
+	}collect: [:each | AAction createActions: each]
