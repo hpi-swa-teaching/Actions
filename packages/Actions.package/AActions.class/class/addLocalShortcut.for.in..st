@@ -10,9 +10,8 @@ addLocalShortcut: aShortcut for: anAction in: aClass
 		duplicateAction := (Shortcuts at: aClass) at: duplicateKey. 
 		duplicateAction ~= anAction])
 			ifTrue: [isResetConfirmed := (PopUpMenu confirm: 
-				'The Key combination you are about to assign is already used. Do you want to override: ', 
+			'The Key combination you are about to assign is already used. Do you want to override: ', 
 				(shortcutDict at: duplicateKey), ' ?').
-				self halt.
 				isResetConfirmed 
 					ifTrue:[self removeShortcut: duplicateKey in: aClass]
 					ifFalse:[^shortcutDict ]].
