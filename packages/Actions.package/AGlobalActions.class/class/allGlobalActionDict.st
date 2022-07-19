@@ -8,4 +8,4 @@ allGlobalActionDict
 		select: [:value | self isCollectionOfActionShortcutPairs: value])
 		do: [:actionPairList | actionPairList do: [: actionPair| actionDict at: actionPair first title put: actionPair first].].
 		
-	^ actionDict.
+	^ actionDict
