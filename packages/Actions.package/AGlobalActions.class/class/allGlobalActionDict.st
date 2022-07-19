@@ -1,11 +1,11 @@
-as yet unclassified
+handle actions
 allGlobalActionDict
 	
 	| actionDict |
 	actionDict := Dictionary new.
 	
-	self allGlobalActionMethods do: [:method |
-		(self actionShortcutPairsFrom: method For: self) do: [:actionShortcutPair |
-			actionDict at: actionShortcutPair first title put: actionShortcutPair]].
-	
-	^ actionDict
+	((self allRelevantMethods collect: [:method | AActions valueFrom: method])
+		select: [:value | self isCollectionOfActionShortcutPairs: value])
+		do: [:actionPairList | actionPairList do: [: actionPair| actionDict at: actionPair first title put: actionPair first].].
+		
+	^ actionDict.

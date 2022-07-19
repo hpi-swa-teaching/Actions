@@ -1,4 +1,4 @@
-as yet unclassified
+handle actions
 globalActionFrom: aTitle
 
 	^ self allGlobalActionDict at: aTitle

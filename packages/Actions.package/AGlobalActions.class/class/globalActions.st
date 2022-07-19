@@ -1,7 +1,5 @@
-as yet unclassified
+global actions
 globalActions
-
-	<definesGlobalActions>
 
 	^{   
 		{'Move up' . #moveUp . 'Moves the currently selected items above the items over it' . $p . #cmdPressed }.
