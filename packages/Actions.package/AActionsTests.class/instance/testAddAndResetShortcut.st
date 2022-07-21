@@ -12,5 +12,5 @@ testAddAndResetShortcut
 	ATestAActions addShortcut: shortcut1 for: action1 in: MockActionsA.
 	self assert: (ATestAActions shortcutsFor: action1 in: MockActionsA ifAbsent: []) first equals: shortcut1.
 	
-	ATestAActions resetDefaultShortcutsFor: MockActionsA.
+	ATestAActions resetLocalDefaultShortcutsFor: MockActionsA.
 	self assert: (ATestAActions shortcutsFor: action1 in: MockActionsA ifAbsent: []) equals: nil.

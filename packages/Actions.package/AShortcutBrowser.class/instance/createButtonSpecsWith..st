@@ -3,7 +3,8 @@ createButtonSpecsWith: aToolBuilder
 
 	^ {
 		{'Help' . #openHelpMenu . nil} .
-		{'Reset' . #resetShortcutsForSelectedClass . nil} .
+		{'Reset locals' . #resetLocalShortcutsForSelectedClass . nil} .
+		{'Reset globals' . #resetGlobalShortcutsForSelectedClass . nil}.
 		{'Reset all' . #resetShortcuts . nil}} 
 		collect: [:each | 
 			self 
