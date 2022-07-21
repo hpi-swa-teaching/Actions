@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"actionShortcutPairsFrom:For:" : "KK 7/11/2022 16:31",
-		"allGlobalActionDict" : "KK 7/11/2022 16:32",
-		"allGlobalActionMethods" : "KK 7/11/2022 16:22",
+		"allGlobalActionDict" : "KK 7/19/2022 17:48",
+		"allRelevantMethods" : "KK 7/19/2022 17:49",
 		"globalActionFrom:" : "KK 7/11/2022 16:37",
-		"globalActions" : "wb 7/14/2022 10:38",
-		"pragmaKeyword" : "KK 7/11/2022 16:18" },
+		"globalActions" : "KK 7/19/2022 17:41",
+		"isCollectionOfActionShortcutPairs:" : "KK 7/19/2022 17:32",
+		"isMethodRelevant:" : "KK 7/14/2022 14:21" },
 	"instance" : {
 		 } }
