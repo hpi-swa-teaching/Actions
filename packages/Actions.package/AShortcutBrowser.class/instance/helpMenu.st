@@ -24,13 +24,17 @@ helpMenu
 
  Reset your shortcuts:
 
- If you want to reset your shortcuts to the default implementation you have two different options:
+ If you want to reset your shortcuts to the default implementation you have three different options:
 
- 1. Reset shortcuts of one class:
- Simply select your desired class with a left-click. Then left-click the "Reset"-Button next to the "Help"-Button. Press "yes"
- to reset your shortcuts of the class to default, press "no" if you want to cancel your action.
+ 1. Reset local shortcuts of one class:
+ Simply select your desired class with a left-click. Then left-click the "Reset locals"-Button next to the "Help"-Button. Press "yes"
+ to reset your shortcuts of local actions of the class to default, press "no" if you want to cancel your action.
 
- 2. Reset all shortcuts:
+ 2. Reset local shortcuts of one class
+ Simply select your desired class with a left-click. Then left-click the "Reset globals"-Button next to the "Help"-Button. Press "yes"
+ to reset your shortcuts of global actions of the class to default, press "no" if you want to cancel your action.
+
+ 3. Reset all shortcuts:
  Left-click the "Reset all"-Button next to the "Reset"-Button. Press "yes" to reset your shortcuts of all classes to default, 
  press "no" if you want to cancel your action.'.
 
