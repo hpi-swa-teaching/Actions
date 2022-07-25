@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 itemName: anInteger
 
 	^ (self classes at: anInteger) name

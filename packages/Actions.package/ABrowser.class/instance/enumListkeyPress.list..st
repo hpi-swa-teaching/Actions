@@ -1,2 +1,2 @@
-as yet unclassified
+handle shortcuts
 enumListkeyPress: evt list: aList

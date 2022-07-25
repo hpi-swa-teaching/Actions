@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 is: aCollectionA equalTo: aCollectionB
 	
 	^ (self is: aCollectionA subsetOf: aCollectionB)

@@ -1,4 +1,4 @@
-as yet unclassified
+manipulate menu
 moveUp
 
 	| index items itemIndex |
