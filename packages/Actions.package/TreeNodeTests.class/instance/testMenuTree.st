@@ -1,4 +1,4 @@
-as yet unclassified
+structure
 testMenuTree
 	|tree menu actionNode actionGroupNode|
 	tree := ATreeNode seperator.

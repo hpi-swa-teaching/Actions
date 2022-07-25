@@ -1,4 +1,4 @@
-as yet unclassified
+operations
 testAddRemoveNodes
 
 	|root child1 child2 child3|
