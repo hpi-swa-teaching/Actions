@@ -1,4 +1,4 @@
-as yet unclassified
+navigating
 getChildren: anObject
 
 	^ anObject actions

@@ -1,4 +1,4 @@
-as yet unclassified
+handle shortcuts
 checkForDuplicatesFor: aClass
 
 	| duplicateAction |

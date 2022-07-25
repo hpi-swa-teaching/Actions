@@ -1,4 +1,4 @@
-as yet unclassified
+evaluating
 description
 
 	^ self isSeperator

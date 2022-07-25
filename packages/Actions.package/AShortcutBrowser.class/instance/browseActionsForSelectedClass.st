@@ -1,4 +1,4 @@
-as yet unclassified
+browsing
 browseActionsForSelectedClass
 	|systemNavigator methodList navigatorTitle|
 	

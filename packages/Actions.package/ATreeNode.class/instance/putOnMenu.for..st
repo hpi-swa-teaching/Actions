@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 putOnMenu: aMenu for: anObject
 
 	self isSeperator

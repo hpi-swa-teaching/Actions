@@ -1,4 +1,4 @@
-as yet unclassified
+navigating
 hasChildren: anObject
 
 	^ anObject isKindOf: AActionGroup
