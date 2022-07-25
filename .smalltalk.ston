@@ -7,7 +7,7 @@ SmalltalkCISpec {
       #load : [ 'default' ]
     }
   ],
-    #preLoading : [
+  #preLoading : [
     'ignoreDeprecationWarnings.st'
   ],
   #testing : {
