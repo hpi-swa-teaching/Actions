@@ -1,4 +1,4 @@
-initilization
+running
 setUp
 
 	ATestAActions pragmaKeywords: { }.

@@ -1,4 +1,4 @@
-write representation
+accessing
 asTreeNode
 
 	| treeNode |

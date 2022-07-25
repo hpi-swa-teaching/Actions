@@ -1,4 +1,4 @@
-button actions
+accessing
 setResult
 
 	self subclassResponsibility
