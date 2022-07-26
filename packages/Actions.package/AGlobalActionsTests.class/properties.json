@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AGlobalActionsTests",
+	"pools" : [
+		 ],
+	"super" : "ActionsTest",
+	"type" : "normal" }
