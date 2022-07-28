@@ -1,6 +1,8 @@
 default shortcuts
 activateGlobalDefaultShortcutsFor: aClass
 
-	(self defaultActionShortcutPairsFor: aClass) do: 
-		[:pair | pair first isGlobal ifTrue: [self addShortcut: pair second for: pair first in: aClass]]
+	((self actionsWithDefaultShortcutFor: aClass) 
+		select: [:action | action isGlobal])
+		do: [:globalAction | self addShortcut: globalAction defaultShortcut for: globalAction in: aClass]
+
 	

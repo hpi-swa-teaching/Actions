@@ -2,7 +2,8 @@ printing
 shortcutRepresentation
 
 	| shortcuts |
-	shortcuts := AActions 
+	
+	shortcuts := (self aactionsApi) 
 		shortcutsFor: self 
 		in: self clazz
 		ifAbsent: [^ ''].

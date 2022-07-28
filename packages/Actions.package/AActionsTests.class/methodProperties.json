@@ -3,7 +3,7 @@
 		"lastStoredRun" : "wb 6/22/2022 16:45" },
 	"instance" : {
 		"setUp" : "KK 6/7/2022 10:27",
-		"testAddAndRemoveShortcut" : "KK 6/7/2022 10:38",
+		"testAddAndRemoveShortcut" : "TA 7/28/2022 11:45",
 		"testAddAndResetShortcut" : "MaCl 7/19/2022 16:29",
 		"testCheckForExistingDuplicateActions" : "KK 6/6/2022 23:57",
 		"testCheckForNonExistingDuplicateActions" : "KK 6/6/2022 23:58",

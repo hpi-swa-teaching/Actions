@@ -1,6 +1,8 @@
 as yet unclassified
 createShortcutwithKeyValue: keyVal andSymbol:  symbol
+
 	|shortcut buttonNumber cmdButtonNumber shiftCmdButtonNumber|
+	
 		cmdButtonNumber := 64.
 		shiftCmdButtonNumber := 72.
 		
