@@ -1,4 +1,6 @@
 opening
 testCorrectBackend
-
-	self assert: (self shortcutBrowser aactionsApi) equals: AActions
+	
+	|ShortcutBrowser|
+	ShortcutBrowser := AShortcutBrowser new.
+	self assert: (ShortcutBrowser aactionsApi) equals: AActions
