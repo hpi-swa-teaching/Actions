@@ -1,6 +1,4 @@
 default shortcuts
 activateDefaultShortcuts
 
-	self actionPragmas keysAndValuesDo: [:class :methods |
-		self activateShortcutsFrom: methods For: class.
-	].
+	self classesWithActions do: [:class | self activateDefaultShortcutsFor: class]
