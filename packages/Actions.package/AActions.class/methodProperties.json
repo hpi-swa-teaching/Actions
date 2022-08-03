@@ -16,7 +16,7 @@
 		"addShortcut:for:in:" : "MatthisCl 7/12/2022 16:16",
 		"allActionMethods" : "KK 5/10/2022 18:55",
 		"checkIfDuplicatesExistsFor:" : "KK 5/19/2022 11:53",
-		"classesProviding:" : "MatthisCl 7/12/2022 16:34",
+		"classesProviding:" : "MaCl 7/28/2022 17:09",
 		"classesWith:at:" : "KK 7/28/2022 12:06",
 		"classesWithActions" : "WoC 10/26/2020 14:56",
 		"duplicateOf:in:" : "wb 6/22/2022 14:04",
@@ -38,7 +38,7 @@
 		"removeShortcutsFor:" : "MatthisCl 7/12/2022 15:24",
 		"reset" : "WoC 9/30/2020 21:44",
 		"resetDefaultShortcuts" : "KK 5/14/2022 15:50",
-		"resetGlobalDefaultShortcutsFor:" : "KK 7/28/2022 12:13",
+		"resetGlobalDefaultShortcutsFor:" : "MaCl 7/28/2022 16:45",
 		"resetLocalDefaultShortcutsFor:" : "MaCl 7/14/2022 14:20",
 		"selectorsWith:DefinedFor:" : "KK 5/24/2022 19:50",
 		"selectorsWithActionsDefinedFor:" : "KK 5/24/2022 19:07",
@@ -48,5 +48,4 @@
 		"testIfIsAction:" : "WoC 9/29/2020 22:25",
 		"valueFrom:" : "KK 7/19/2022 17:48" },
 	"instance" : {
-		"wantsActions" : "WoC 10/15/2020 15:00",
-		"wantsActionsInCategory:" : "WoC 10/15/2020 15:01" } }
+		 } }
