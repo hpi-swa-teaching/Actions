@@ -2,6 +2,7 @@ as yet unclassified
 testShortcutComparison
 
 	|keyBoardEvent shortcut1 shortcut2 shortcut3|
+	
 	keyBoardEvent := KeyboardEvent new setType: #keystroke buttons: 72 position: 42@42 keyValue: $b asciiValue hand: nil stamp: nil.
 	shortcut1 := AShortcut from: keyBoardEvent.
 	shortcut2 := AShortcut modifierShift: $b.
