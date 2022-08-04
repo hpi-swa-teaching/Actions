@@ -9,4 +9,6 @@ testAsTreeNode
 	treeNode:= actionGroup asTreeNode.
 	
 	self assert: treeNode value equals: actionGroup.
-	"self assert: treeNode children equals: actions"
+	self assert: (treeNode children first) value equals: actions first.
+	self assert: (treeNode children second) value equals: actions second
+	
