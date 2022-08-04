@@ -1,0 +1,1 @@
+Class to display infos to user
