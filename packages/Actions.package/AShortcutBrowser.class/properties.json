@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Shortcuts" ],
+		 ],
 	"commentStamp" : "MaCl 8/4/2022 09:34",
 	"instvars" : [
 		"actionIndex" ],
