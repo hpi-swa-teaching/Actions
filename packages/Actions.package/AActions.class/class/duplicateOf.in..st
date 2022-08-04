@@ -1,7 +1,6 @@
 accessing
 duplicateOf: aShortcut in: aDict
-	|hashdict keys|
-	hashdict := Dictionary new.
+	|keys|
 	keys := aDict keys.
 	
 	"check if keystring already exisists in aDict"
