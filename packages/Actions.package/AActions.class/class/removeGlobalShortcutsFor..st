@@ -2,4 +2,4 @@ default shortcuts
 removeGlobalShortcutsFor: aClass
 
 	(Shortcuts at: aClass) keys do: [:shortcut |((Shortcuts at: aClass) at: shortcut) isGlobal ifTrue: 
-		[self removeShortcut: shortcut in: aClass. Transcript show: shortcut]]
+		[self removeShortcut: shortcut in: aClass]]
