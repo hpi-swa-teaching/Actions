@@ -2,4 +2,4 @@ running
 tearDown
 
 	self shortcutBrowser: nil.
-	AActionsTests reset
+	ATestAActions reset
