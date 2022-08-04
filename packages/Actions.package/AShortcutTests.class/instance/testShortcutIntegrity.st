@@ -6,9 +6,9 @@ testShortcutIntegrity
 	self assert: shortcut shiftPressed not.
 	self assert: shortcut modifierPressed.
 	self assert: shortcut key = $d.
-	self assert: shortcut asString = '<ctrl>d'.
+	self assert: (shortcut asString = '<ctrl>d' or: shortcut asString = '<cmd>d').
 	
 	shortcut shiftPressed: true.
 	self assert: shortcut shiftPressed.
-	shortcut asString = '<ctrl><shift>d'
+	self assert: (shortcut asString = '<ctrl><shift>d' or: shortcut asString = '<cmd><shift>d')
 	
