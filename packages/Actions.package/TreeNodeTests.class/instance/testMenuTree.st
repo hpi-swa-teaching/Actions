@@ -1,6 +1,7 @@
 structure
 testMenuTree
 	|tree menu actionNode actionGroupNode|
+	
 	tree := ATreeNode seperator.
 	actionNode := ATreeNode value: (AAction from: MockActions mockActionMoveUpAsList).
 	actionGroupNode := ATreeNode value: ((AActionGroup named: #TestGroup) addAction: (AAction from: MockActions mockActionMoveDownAsList)).
