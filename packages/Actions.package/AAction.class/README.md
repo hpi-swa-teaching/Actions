@@ -1,0 +1,1 @@
+Class for creating Actions (triple of description, action and defaultShortcut)
