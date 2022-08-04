@@ -14,6 +14,6 @@ overwritePotentialDuplicate: anAction at: aKey for: aClass
 			ifFalse: [^ true].
 
 	isResetConfirmed 
-		ifTrue: [self removeShortcut: duplicateKey in: aClass]
+		ifTrue: [self removeShortcut: duplicateKey in: aClass. ^ true]
 		ifFalse: [^ false]
 	
