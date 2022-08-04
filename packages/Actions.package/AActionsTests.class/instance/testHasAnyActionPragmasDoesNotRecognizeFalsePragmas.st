@@ -7,4 +7,4 @@ testHasAnyActionPragmasDoesNotRecognizeFalsePragmas
 	ATestAActions pragmaKeywords: { actionPragma }.
 	methodWithoutActionPragmas := MockActionsD class methodDict at: #methodWithoutActionPragmas.
 	
-	self assert: (ATestAActions hasAnyActionPragmas: methodWithoutActionPragmas) equals: false
+	self deny: (ATestAActions hasAnyActionPragmas: methodWithoutActionPragmas)

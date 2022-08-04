@@ -1,7 +1,7 @@
-initilization
+classification
 testIsAction
 
 	| action |
 	
 	action:= MockActionsD actionOne.
-	self assert: (ATestAActions testIfIsAction: action) equals: true
+	self assert: (ATestAActions testIfIsAction: action)

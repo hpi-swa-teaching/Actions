@@ -1,4 +1,4 @@
-initilization
+shortcuts
 testAddAndResetShortcut
 
 	| shortcut1 action1 |

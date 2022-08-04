@@ -1,4 +1,4 @@
-initilization
+duplicate checks
 testCheckForExistingDuplicateActions
 
 	| actionTitleA actionTitleB |
