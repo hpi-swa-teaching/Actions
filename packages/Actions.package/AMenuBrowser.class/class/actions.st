@@ -4,9 +4,9 @@ actions
 	<wantsActions>
 
 	^{   
-		{'Move Down' . #moveDown . 'Moves the currently selected items under the items under it' }.
+		{'Move Down' . #moveDown . 'Moves the currently selected items under the item under it'}.
 		{'Add line' . #addSeparator . 'Adds a seperator/line'. $a . #cmdPressed}.
-		{'Remove' . #removeItem . 'Removes the currently selected item'. $r . #cmdPressed}.
-		{'Add...' . #addAction . 'Opens a dialog to select actions to be added to the list'. $c . #cmdPressed}.
+		{'Move up' . #moveUp . 'Moves the currently selected items over the item over it'}.
+		{'Add...' . #addAction . 'Opens a dialog to select actions to be added to the list'}
 	}collect: [:each | AAction createActions: each]
 	
