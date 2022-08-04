@@ -3,9 +3,7 @@ testAddAndResetShortcut
 
 	| shortcut1 action1 |
 	
-	shortcut1 := KeyboardEvent new 
-		setType: #keystroke buttons: 64 position: 0 @ 0 keyValue: 98 hand: nil stamp: nil;
-		yourself.
+	shortcut1 := self shortcutCtrlb.
 		
 	action1 := AAction from: MockActionsA mockActionMoveUpAsList.
 	
