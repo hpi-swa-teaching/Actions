@@ -2,7 +2,7 @@ accessing
 actionsMenu: aMenu
 
 	<actionsMenu>
-	aMenu addTitle: 'foo'.
+	aMenu addTitle: 'Choose Action'.
 	aMenu addStayUpItemSpecial.
 	
 	aMenu addList: #(
