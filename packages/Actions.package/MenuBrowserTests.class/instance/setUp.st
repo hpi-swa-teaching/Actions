@@ -5,3 +5,4 @@ setUp
 	
 	self menuBrowser: ATestMenuBrowser new.
 	ATestAActions pragmaKeywords: { #wantsTestActions }.
+
