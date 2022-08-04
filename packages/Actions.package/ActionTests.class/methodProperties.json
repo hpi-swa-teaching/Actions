@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"setUp" : "MaCl 8/4/2022 09:13",
 		"tearDown" : "TA 7/28/2022 12:31",
 		"testActionWithShortcutRepresentation" : "TA 7/28/2022 14:56",
 		"testActionWithoutShortcutRepresentation" : "TA 7/28/2022 12:26" } }
