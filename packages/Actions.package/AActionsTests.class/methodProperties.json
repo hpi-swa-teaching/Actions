@@ -3,8 +3,10 @@
 		"lastStoredRun" : "wb 6/22/2022 16:45" },
 	"instance" : {
 		"setUp" : "KK 6/7/2022 10:27",
+		"shortcutTriggered" : "KK 8/4/2022 11:19",
+		"shortcutTriggeringAction" : "KK 8/4/2022 11:16",
 		"testAddAndRemoveShortcut" : "TA 7/28/2022 11:45",
-		"testAddAndResetShortcut" : "MaCl 7/19/2022 16:29",
+		"testAddAndResetShortcut" : "KK 8/4/2022 11:23",
 		"testCheckForExistingDuplicateActions" : "KK 6/6/2022 23:57",
 		"testCheckForNonExistingDuplicateActions" : "KK 6/6/2022 23:58",
 		"testHasAnyActionPragmasDoesNotRecognizeFalsePragmas" : "KK 8/4/2022 10:37",
@@ -16,4 +18,9 @@
 		"testNoClassProvidingAnAction" : "MaCl 7/28/2022 17:01",
 		"testOneClassProvidingAnAction" : "MaCl 8/3/2022 18:22",
 		"testSelectorsWithActionsDefinedForAClass" : "KK 6/13/2022 13:58",
-		"testSelectorsWithAnActionDefinedForAClass" : "KK 6/13/2022 13:53" } }
+		"testSelectorsWithAnActionDefinedForAClass" : "KK 6/13/2022 13:53",
+		"testShortcutNotTriggeringForFalseClass" : "KK 8/4/2022 11:22",
+		"testShortcutNotTriggeringForFalseShortcut" : "KK 8/4/2022 11:22",
+		"testShortcutTriggeringCorrectly" : "KK 8/4/2022 11:22",
+		"wasShortcutTriggered" : "KK 8/4/2022 11:09",
+		"wasShortcutTriggered:" : "KK 8/4/2022 11:09" } }
