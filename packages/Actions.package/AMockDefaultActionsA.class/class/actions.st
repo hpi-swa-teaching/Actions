@@ -1,7 +1,7 @@
 actions
 actions 
 
-	<wantsActionsWithDefaultShortcuts>
+	<wantsTestDefaultActions>
 	^ { 
-		self mockActionAddLineAsList
+		self mockActionAddLineAsList.
 	} collect: [:each | AAction createActions: each]

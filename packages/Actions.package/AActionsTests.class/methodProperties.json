@@ -2,6 +2,7 @@
 	"class" : {
 		"lastStoredRun" : "wb 6/22/2022 16:45" },
 	"instance" : {
+		"addShortcutCtrldForAction" : "KK 8/4/2022 18:12",
 		"setUp" : "KK 6/7/2022 10:27",
 		"shortcutTriggered" : "KK 8/4/2022 11:19",
 		"shortcutTriggeringAction" : "KK 8/4/2022 11:16",
@@ -20,6 +21,11 @@
 		"testIsNilAction" : "TA 8/4/2022 10:44",
 		"testNoClassProvidingAnAction" : "MaCl 7/28/2022 17:01",
 		"testOneClassProvidingAnAction" : "MaCl 8/3/2022 18:22",
+		"testRemoveGlobalDefaultShortcutsForDoesNotEffectLocalActions" : "KK 8/4/2022 18:38",
+		"testRemoveShortcutsForAClassWithShortcuts" : "KK 8/4/2022 18:12",
+		"testRemoveShortcutsForDifferentClass" : "KK 8/4/2022 18:14",
+		"testResetDefaultShortcuts" : "KK 8/4/2022 18:38",
+		"testResetGlobalDefaultShortcutsForDoesNotEffectLocalActions" : "KK 8/4/2022 18:41",
 		"testSelectorsWithActionsDefinedForAClass" : "KK 6/13/2022 13:58",
 		"testSelectorsWithAnActionDefinedForAClass" : "KK 6/13/2022 13:53",
 		"testShortcutNotTriggeringForFalseClass" : "KK 8/4/2022 11:22",
