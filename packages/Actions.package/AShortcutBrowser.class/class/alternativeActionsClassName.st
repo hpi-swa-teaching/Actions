@@ -1,4 +1,4 @@
 as yet unclassified
 alternativeActionsClassName
 
-	^'Menu-Browser'
+	^'Shortcut-Browser'

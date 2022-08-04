@@ -4,6 +4,6 @@ globalActions
 	<wantsActions>
 
 	^{   
-		{'Move up' . #moveUp}.
+		{'Remove' . #removeItem}.
 	}collect: [:each | AGlobalAction from: each in: self]
 	
