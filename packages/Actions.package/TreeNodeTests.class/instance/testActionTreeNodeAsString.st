@@ -1,9 +1,10 @@
 representation
 testActionTreeNodeAsString
 
-	| treeNode |
+	| treeNode action|
 	
-	treeNode:= ATreeNode value: MockActionsD actionOne.
-	self assert: (treeNode asString) equals: 'Move Up Test'
+	action:= MockActionsD actionOne.
+	treeNode:= ATreeNode value: action.
+	self assert: (treeNode asString) equals: action title
 
 	
