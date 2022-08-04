@@ -1,4 +1,4 @@
-initilization
+classification
 testIsNilAction
 
-	self assert: (ATestAActions testIfIsAction: nil) equals: false
+	self deny: (ATestAActions testIfIsAction: nil)

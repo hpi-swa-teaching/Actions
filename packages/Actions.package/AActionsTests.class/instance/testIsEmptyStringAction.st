@@ -1,4 +1,4 @@
-initilization
+classification
 testIsEmptyStringAction
 
-	self assert: (ATestAActions testIfIsAction: '') equals: false
+	self deny: (ATestAActions testIfIsAction: '')
