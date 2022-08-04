@@ -1,8 +1,9 @@
 as yet unclassified
 testShortcutIntegrity
 
-	|shortcut|
-	shortcut := AShortcut from: super shortcutCtrld.
+	| shortcut |
+	
+	shortcut := AShortcut from: self shortcutCtrld.
 	self assert: shortcut shiftPressed not.
 	self assert: shortcut modifierPressed.
 	self assert: shortcut key = $d.
