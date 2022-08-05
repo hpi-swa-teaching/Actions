@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 moveDownAction
 
 	^ AAction from: self mockActionMoveDownAsList

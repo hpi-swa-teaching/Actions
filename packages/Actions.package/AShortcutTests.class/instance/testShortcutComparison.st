@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testShortcutComparison
 
 	|keyBoardEvent shortcut1 shortcut2 shortcut3|

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 mockActionAddAsList
 
 	^ {'Add' .#add . 'Adds a line' }

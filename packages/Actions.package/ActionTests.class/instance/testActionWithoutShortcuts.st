@@ -1,4 +1,4 @@
-as yet unclassified
+shortcuts
 testActionWithoutShortcuts
 	
 	| action | 
