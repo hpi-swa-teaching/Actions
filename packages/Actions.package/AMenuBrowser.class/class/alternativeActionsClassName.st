@@ -1,0 +1,4 @@
+actions
+alternativeActionsClassName
+
+	^'Menu-Browser'

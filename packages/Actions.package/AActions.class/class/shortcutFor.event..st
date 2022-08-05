@@ -2,14 +2,18 @@ handle shortcuts
 shortcutFor: anObject event: evt
 
 	| classes |
-	evt isKeyboard
-		ifFalse: [^ self].
 	
+	evt isKeyboard
+		ifFalse: [^ false].
+	
+
 	classes := anObject class withAllSuperclasses.
-	classes do: [:each | 
+	classes do: [:class | 
 		Shortcuts 
-		at: each
-		ifPresent: [:dict | dict 
+		at: class
+		ifPresent: [:actionsDict | actionsDict 
 							at: evt
-							ifPresent: [:association | association value for: anObject. ^ self]]]
+							ifPresent: [:association | association value for: anObject at: evt position. ^ true]]].
+					
+	^ false
 	

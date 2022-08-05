@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addAction: anAction
 
 	self actions add: anAction

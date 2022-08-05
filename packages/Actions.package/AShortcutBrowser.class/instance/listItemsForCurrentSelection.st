@@ -1,9 +1,9 @@
-as yet unclassified
+toolbuilder
 listItemsForCurrentSelection
 
 	| shortcuts items |
 	
-	shortcuts := AActions
+	shortcuts := self aactionsApi
 						shortcutsFor: self selectedAction 
 						in: self selectedClass 
 						ifAbsent: [^ {}]. 

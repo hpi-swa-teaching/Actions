@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 helpFor: anAction
 
 	^ anAction description

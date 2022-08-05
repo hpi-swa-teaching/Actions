@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"tearDown" : "TA 7/28/2022 12:31",
+		"testActionShortcuts" : "wb 8/5/2022 18:07",
+		"testActionWithShortcutRepresentation" : "wb 8/5/2022 18:18",
+		"testActionWithShortcuts" : "wb 8/5/2022 18:08",
+		"testActionWithoutShortcutRepresentation" : "wb 8/5/2022 18:19",
+		"testActionWithoutShortcuts" : "wb 8/5/2022 18:08",
+		"testDefaultActionSelectorForGlobalAction" : "wb 8/5/2022 18:04",
+		"testOverwriteActionSelectorForGlobalAction" : "wb 8/5/2022 18:05",
+		"testWriteTreeRepresentationIntoATreeNode" : "wb 8/5/2022 18:19" } }

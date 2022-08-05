@@ -1,0 +1,4 @@
+actions
+alternativeActionsClassName
+
+	^'Shortcut-Browser'

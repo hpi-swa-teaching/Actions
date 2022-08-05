@@ -1,4 +1,4 @@
-as yet unclassified
+handle shortcuts
 checkIfDuplicatesExistsFor: aClass
 
 	| collection |

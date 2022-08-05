@@ -1,5 +1,18 @@
-as yet unclassified
+browsing
 browseActionsForSelectedClass
-	(AActions selectorsWithActionsDefinedFor: self selectedClass) do: [ :aSelector |
-	 self browseClassSide: self selectedClass selector: aSelector.
-].
+
+	| systemNavigator methodList navigatorTitle |
+	
+	navigatorTitle := '', self selectedClass, ' Class Actions Definitions'.
+	systemNavigator := SystemNavigation new.
+	
+	(self selectedClass) ifNotNil: [
+		methodList := systemNavigator 
+			allMethodsSelect: [:method | self aactionsApi hasAnyActionPragmas: method] 
+				localTo: self selectedClass.
+				
+		systemNavigator 
+			browseMessageList: methodList 
+			name: navigatorTitle 
+			autoSelect: 	navigatorTitle]
+

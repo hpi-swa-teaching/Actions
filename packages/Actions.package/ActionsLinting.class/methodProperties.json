@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"lastStoredRun" : "wb 6/22/2022 16:45" },
+	"instance" : {
+		"assertArbitraryCodeRules:" : "KK 6/14/2022 17:38",
+		"defaultTimeout" : "MaCl 6/4/2022 15:58",
+		"objectsToTest" : "KK 6/14/2022 11:07",
+		"runArbitraryCodeRules:on:" : "KK 6/14/2022 11:17",
+		"testDotReturnConsistency" : "KK 6/14/2022 17:36",
+		"testMethodClassification" : "MaCl 7/25/2022 11:25",
+		"testNoDefinesEqualNotHash" : "KK 6/14/2022 11:13",
+		"testNoEqualNotUsed" : "KK 6/14/2022 17:44",
+		"testNoEqualsTrue" : "KK 6/14/2022 17:44",
+		"testNoExtraBlock" : "KK 6/14/2022 17:44",
+		"testNoJustSendsSuper" : "KK 6/14/2022 17:44",
+		"testNoMethodModifierOverride" : "KK 6/14/2022 17:44",
+		"testNoReturnsIfTrue" : "KK 6/14/2022 11:14",
+		"testNoWhileTrue" : "MaCl 6/6/2022 14:38" } }

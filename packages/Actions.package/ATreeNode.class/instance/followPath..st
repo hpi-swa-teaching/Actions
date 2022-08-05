@@ -1,4 +1,4 @@
-as yet unclassified
+handle children
 followPath: aCollection
 
 	| index node |

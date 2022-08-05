@@ -1,0 +1,1 @@
+Class that maintains actions and provides functionality

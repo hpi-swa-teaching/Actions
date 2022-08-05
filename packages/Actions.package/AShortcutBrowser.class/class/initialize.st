@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
 
-	TheWorldMenu registerOpenCommand: {'Shortcut Browser'. {self. #open}}
+	TheWorldMenu registerOpenCommand: {self windowLabel. {self. #open}}

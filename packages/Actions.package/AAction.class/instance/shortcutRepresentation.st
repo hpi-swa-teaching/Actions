@@ -1,14 +1,12 @@
 printing
 shortcutRepresentation
-
-	| shortcuts |
-	shortcuts := AActions 
-		shortcutsFor: self 
-		in: self clazz
-		ifAbsent: [^ ''].
-	^ '(' , ((shortcuts 
-		collect: [:each | | stream |
-			stream := WriteStream on: ''.
-			each printKeyStringOn: stream.
-			stream contents]) 
-		joinSeparatedBy: ', ' ) , ')'
+	
+	self hasShortcuts
+		ifTrue: [
+			^ '(' , ((self shortcuts 
+			collect: [:each | | stream |
+				stream := WriteStream on: ''.
+				each printKeyStringOn: stream.
+				stream contents]) 
+			joinSeparatedBy: ', ' ) , ')'] 
+		ifFalse: [^ '']

@@ -1,6 +1,10 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "wb 6/22/2022 16:45" },
 	"instance" : {
+		"menuBrowser" : "MaCl 7/28/2022 11:33",
+		"menuBrowser:" : "MaCl 7/28/2022 11:33",
 		"removeAMenuBrowserWindows" : "MaCl 5/23/2022 10:03",
-		"testWindowCreation" : "MaCl 5/23/2022 10:06" } }
+		"setUp" : "MaCl 7/28/2022 11:34",
+		"testCorrectBackend" : "wb 8/5/2022 17:50",
+		"testWindowCreation" : "KK 6/7/2022 00:03" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AMockActions",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

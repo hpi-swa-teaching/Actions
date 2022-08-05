@@ -1,0 +1,3 @@
+history
+lastStoredRun
+	^ ((Dictionary new) add: (#duration->0); add: (#errors->((Set new) add: #testWindowCreation; yourself)); add: (#passed->((Set new) add: #testClassInitialization; add: #testHelpWindow; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'22 June 2022 4:16:35.86868 pm' asTimeStamp); add: (#durations->((Dictionary new) add: (#testWindowCreation->nil); add: (#testClassInitialization->0); add: (#testHelpWindow->0); yourself)); yourself)

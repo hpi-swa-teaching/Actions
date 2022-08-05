@@ -1,4 +1,4 @@
-as yet unclassified
+handle selectors
 selectorsWithActionsDefinedFor: aClass
 
 	^(self actionPragmasFor: aClass) collect: [ :method | method selector]

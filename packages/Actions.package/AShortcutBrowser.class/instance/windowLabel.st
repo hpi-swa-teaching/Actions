@@ -1,4 +1,4 @@
 accessing
 windowLabel
 
-	^  'Shortcut Browser'
+	^  self class windowLabel

@@ -1,4 +1,4 @@
-as yet unclassified
+handle selectors
 selectorsWith: aAction DefinedFor: aClass
 	
 	| releveantSelectors |

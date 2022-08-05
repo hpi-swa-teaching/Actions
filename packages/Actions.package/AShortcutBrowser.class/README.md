@@ -1,0 +1,1 @@
+Class to manage Action-Shortcut-Pairs

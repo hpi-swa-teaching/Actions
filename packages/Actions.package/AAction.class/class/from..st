@@ -1,4 +1,4 @@
-as yet unclassified
+create
 from: aCollection
 
 	^ self 

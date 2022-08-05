@@ -1,5 +1,5 @@
 default shortcuts
 activateDefaultShortcutsFor: aClass
 
-	self activateShortcutsFrom: (self actionPragmasFor: aClass) For: aClass.
-	
+	(self actionsWithDefaultShortcutFor: aClass) do: 
+		[:action | self addShortcut: action defaultShortcut for: action in: aClass]	

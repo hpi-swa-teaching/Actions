@@ -1,0 +1,1 @@
+Class that provides available GlobalActions

@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MaCl 8/4/2022 09:45",
 	"instvars" : [
 		"description",
-		"action" ],
+		"action",
+		"defaultShortcut" ],
 	"name" : "AAction",
 	"pools" : [
 		 ],

@@ -1,0 +1,1 @@
+Class for selecting actions in MenuBrowser drop-down menu

@@ -1,5 +1,6 @@
-as yet unclassified
+browsing
 browse: aAction For: aClass
-	(AActions selectorsWith: aAction DefinedFor: aClass) do: [ :aSelector |
+
+	(self aactionsApi selectorsWith: aAction DefinedFor: aClass) do: [ :aSelector |
 	 self browseClassSide: self selectedClass selector: aSelector.
-].
+	].

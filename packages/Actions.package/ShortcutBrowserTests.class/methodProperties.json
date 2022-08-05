@@ -1,12 +1,20 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "wb 6/22/2022 16:45" },
 	"instance" : {
-		"removeAShortcutBrowserWindows" : "MaCl 5/23/2022 09:59",
-		"setUp" : "MaCl 5/23/2022 10:16",
+		"removeAShortcutBrowserWindows" : "KK 6/23/2022 17:39",
+		"setUp" : "KK 6/27/2022 16:13",
 		"shortcutBrowser" : "MaCl 5/23/2022 10:15",
 		"shortcutBrowser:" : "MaCl 5/23/2022 10:15",
-		"tearDown" : "MaCl 5/23/2022 10:16",
-		"testClassInitialization" : "MaCl 5/23/2022 09:32",
-		"testHelpWindow" : "MaCl 5/23/2022 10:49",
-		"testWindowCreation" : "MaCl 5/23/2022 09:58" } }
+		"tearDown" : "MaCl 8/4/2022 09:24",
+		"testActionBallonText" : "TA 8/4/2022 16:26",
+		"testAddShortcut" : "TA 7/28/2022 15:48",
+		"testClassInitialization" : "KK 6/27/2022 16:17",
+		"testCorrectBackend" : "MaCl 7/28/2022 11:47",
+		"testHelpWindow" : "TA 7/28/2022 11:23",
+		"testListItemsForSelectionWithNoShortcuts" : "TA 8/4/2022 19:10",
+		"testListItemsForSelectionWithShortcuts" : "TA 8/4/2022 19:09",
+		"testNotExistingBallonText" : "TA 8/4/2022 16:35",
+		"testRemoveShortcut" : "TA 8/4/2022 09:28",
+		"testWindowCreation" : "KK 6/23/2022 17:39",
+		"testWindowLabel" : "MaCl 7/28/2022 12:05" } }

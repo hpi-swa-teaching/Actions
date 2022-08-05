@@ -1,5 +1,5 @@
-actions
+opening
 removeAShortcutBrowserWindows
 
-	(SystemWindow windowsIn: World satisfying: [:w | w label = 'Shortcut Browser']) do: [:each |
+	(self systemWindowsFor: ATestShortcutBrowser windowLabel) do: [:each |
 		each model canDiscardEdits ifTrue: [each delete]].

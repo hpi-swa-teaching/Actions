@@ -1,4 +1,4 @@
-as yet unclassified
+create
 named: aSymbol from: anArray
 	| group |
 	group := self new

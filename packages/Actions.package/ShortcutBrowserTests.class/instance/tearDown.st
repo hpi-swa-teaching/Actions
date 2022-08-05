@@ -1,4 +1,5 @@
-initilization
+running
 tearDown
 
-	self shortcutBrowser: nil
+	self shortcutBrowser: nil.
+	ATestAActions reset

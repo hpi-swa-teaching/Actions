@@ -1,0 +1,1 @@
+Collect Actions that belong to the same class

@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MaCl 8/4/2022 09:41",
+	"instvars" : [
+		 ],
+	"name" : "AGlobalActions",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

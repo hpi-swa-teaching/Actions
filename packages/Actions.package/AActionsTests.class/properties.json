@@ -1,0 +1,14 @@
+{
+	"category" : "Actions-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"wasShortcutTriggered" ],
+	"name" : "AActionsTests",
+	"pools" : [
+		 ],
+	"super" : "ActionsTest",
+	"type" : "normal" }

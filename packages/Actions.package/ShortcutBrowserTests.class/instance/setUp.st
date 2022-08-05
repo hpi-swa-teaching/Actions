@@ -1,4 +1,7 @@
-initilization
+running
 setUp
-
-	self shortcutBrowser: AShortcutBrowser new
+	
+	super setUp.
+	
+	self shortcutBrowser: ATestShortcutBrowser new.
+	ATestAActions pragmaKeywords: { #wantsTestActions }.

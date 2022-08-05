@@ -1,9 +1,12 @@
-as yet unclassified
+actions
 actions
 
 	<wantsActions>
-	^ {  
-		{'Move up' . #moveUp . 'Moves the currently selected items above the items over it' }.
-		{'Move down' . #moveDown . 'Moves the currently selected items under the items under it' }.
-		{'Add line' . #addSeparator . 'Adds a seperator/line'}.
-	} collect: [:each | AAction from: each]
+
+	^{   
+		{'Move Down' . #moveDown . 'Moves the currently selected items under the item under it'}.
+		{'Add line' . #addSeparator . 'Adds a seperator/line'. $a . #cmdPressed}.
+		{'Move up' . #moveUp . 'Moves the currently selected items over the item over it'}.
+		{'Add...' . #addAction . 'Opens a dialog to select actions to be added to the list'}
+	}collect: [:each | AAction createActions: each]
+	
