@@ -1,4 +1,4 @@
-as yet unclassified
+create
 checkAPIConformanceFor: aCollection
 
 	(aCollection fourth isCharacter and: aCollection fifth isSymbol)

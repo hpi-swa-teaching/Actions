@@ -1,4 +1,4 @@
-as yet unclassified
+create
 createShortcutwithKeyValue: keyVal andSymbol:  symbol
 
 	|shortcut buttonNumber cmdButtonNumber shiftCmdButtonNumber|

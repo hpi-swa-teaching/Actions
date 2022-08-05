@@ -1,4 +1,4 @@
-as yet unclassified
+create
 title: aSymbol action: aKeywordOrBlock description: aString
 
 	^ self new
