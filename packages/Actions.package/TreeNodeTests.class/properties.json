@@ -10,5 +10,5 @@
 	"name" : "TreeNodeTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "ActionsTest",
 	"type" : "normal" }

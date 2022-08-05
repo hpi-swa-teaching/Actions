@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"actions" : "wb 7/14/2022 10:38",
-		"alternativeActionsClassName" : "TA 7/14/2022 11:42",
-		"globalActions" : "MaCl 7/11/2022 16:05" },
+		"actions" : "MaCl 8/4/2022 17:00",
+		"alternativeActionsClassName" : "MaCl 8/4/2022 17:11",
+		"globalActions" : "MaCl 8/4/2022 16:57" },
 	"instance" : {
 		"addAction" : "WoC 10/15/2020 00:02",
 		"addNode:" : "WoC 10/15/2020 14:04",
 		"addSeparator" : "WoC 9/29/2020 12:08",
 		"buttonPanelHeight" : "WoC 9/26/2020 20:10",
-		"canMoveDown" : "WoC 10/15/2020 02:53",
+		"canMoveDown" : "TA 8/4/2022 09:49",
 		"canMoveUp" : "WoC 10/15/2020 02:53",
 		"canRemove" : "WoC 9/26/2020 22:28",
 		"classIndex:" : "WoC 10/15/2020 14:08",
@@ -20,7 +20,7 @@
 		"getChildren:" : "WoC 10/15/2020 00:10",
 		"hasChildren:" : "WoC 10/15/2020 00:10",
 		"helpFor:" : "WoC 10/15/2020 00:23",
-		"keyPress:tree:event:" : "KK 5/30/2022 18:18",
+		"keyPress:tree:event:" : "TA 8/4/2022 10:15",
 		"mainView" : "WoC 10/15/2020 00:07",
 		"moveDown" : "WoC 10/15/2020 03:54",
 		"moveUp" : "WoC 10/15/2020 03:54",

@@ -1,0 +1,1 @@
+Actions that behave the same in different classes

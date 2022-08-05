@@ -1,0 +1,4 @@
+global actions
+testOverwriteActionSelectorForGlobalAction
+
+	self assert: AMockGlobalActionsA globalRemoveAction action equals: #removeSpecial

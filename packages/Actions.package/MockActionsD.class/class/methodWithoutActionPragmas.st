@@ -1,0 +1,4 @@
+pragma
+methodWithoutActionPragmas
+
+	<RandomNumberTile>

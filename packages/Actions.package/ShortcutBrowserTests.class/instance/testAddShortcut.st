@@ -1,4 +1,4 @@
-buttons
+shortcuts
 testAddShortcut
 
 	(self shortcutBrowser) addShortcut: self shortcutCtrld.

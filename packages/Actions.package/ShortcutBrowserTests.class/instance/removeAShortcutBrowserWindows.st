@@ -1,4 +1,4 @@
-actions
+opening
 removeAShortcutBrowserWindows
 
 	(self systemWindowsFor: ATestShortcutBrowser windowLabel) do: [:each |

@@ -1,0 +1,1 @@
+Class for shortcuts that can be added to Actions

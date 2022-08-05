@@ -2,6 +2,7 @@ handle shortcuts
 shortcutFor: anObject event: evt
 
 	| classes |
+	
 	evt isKeyboard
 		ifFalse: [^ false].
 	

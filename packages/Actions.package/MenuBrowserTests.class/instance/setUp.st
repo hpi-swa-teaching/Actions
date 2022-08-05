@@ -1,6 +1,8 @@
 running
 setUp
-
-	self menuBrowser: AMenuBrowser new
-
 	
+	super setUp.
+	
+	self menuBrowser: ATestMenuBrowser new.
+	ATestAActions pragmaKeywords: { #wantsTestActions }.
+

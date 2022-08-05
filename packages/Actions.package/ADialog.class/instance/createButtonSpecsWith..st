@@ -7,5 +7,5 @@ createButtonSpecsWith: aToolBuilder
 	} collect: [:each | aToolBuilder pluggableButtonSpec new
 		model: self;
 		label: each first;
-		color: (self userInterfaceTheme cancelColor ifNil: [Color r: 1 g: 0.6 b: 0.588]);
+		color: (self userInterfaceTheme cancelColor ifNil: [self buttonColor]);
 		action: each second]

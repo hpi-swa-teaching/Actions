@@ -2,6 +2,7 @@ operations
 testAddRemoveNodes
 
 	|root child1 child2 child3|
+	
 	root := ATreeNode seperator.
 	self assert: root isSeperator.
 	self assert:  root description isNil.
