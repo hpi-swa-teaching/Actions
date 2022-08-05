@@ -3,7 +3,7 @@ testActionWithoutShortcuts
 	
 	| action | 
 	
-	action := MockActions moveUpAction clazz: MockActionsA; yourself.
+	action := AMockActions moveUpAction clazz: AMockActionsMoveUpDuplicate; yourself.
 	
 	self assert: action hasShortcuts equals: false
 	

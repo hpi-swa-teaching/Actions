@@ -6,5 +6,5 @@ testRemoveShortcutsForDifferentClass
 	
 	self assert: (actionA shortcuts first) equals: self shortcutCtrld.
 	
-	ATestAActions removeShortcutsFor: MockActionsB.
+	ATestAActions removeShortcutsFor: AMockActionsMoveUp.
 	self assert: (actionA shortcuts first) equals: self shortcutCtrld

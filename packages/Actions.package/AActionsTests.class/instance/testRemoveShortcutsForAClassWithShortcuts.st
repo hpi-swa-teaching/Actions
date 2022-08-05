@@ -3,5 +3,5 @@ testRemoveShortcutsForAClassWithShortcuts
 
 	| actionA |
 	actionA := self addShortcutCtrldForAction.
-	ATestAActions removeShortcutsFor: MockActionsA.
+	ATestAActions removeShortcutsFor: AMockActionsMoveUpDuplicate.
 	self deny: actionA hasShortcuts

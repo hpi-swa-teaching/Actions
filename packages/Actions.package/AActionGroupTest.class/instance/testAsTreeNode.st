@@ -3,7 +3,7 @@ testAsTreeNode
 
 	| treeNode actions actionGroup|
 	
-	actions:= MockActionsA actions.
+	actions:= AMockActionsMoveUpDuplicate actions.
 	actionGroup:= AActionGroup new.
 	actionGroup actions: actions.
 	treeNode:= actionGroup asTreeNode.

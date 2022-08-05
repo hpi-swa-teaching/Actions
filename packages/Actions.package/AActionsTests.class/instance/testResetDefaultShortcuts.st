@@ -3,7 +3,7 @@ testResetDefaultShortcuts
 
 	| actionWithADefaultShortcut |
 	
-	actionWithADefaultShortcut := MockActions addLineAction clazz: AMockDefaultActionsA; yourself.
+	actionWithADefaultShortcut := AMockActions addLineAction clazz: AMockActionAddLineAsList; yourself.
 	self assert: actionWithADefaultShortcut hasDefaultShortcut.
 	self deny: actionWithADefaultShortcut hasShortcuts.
 	

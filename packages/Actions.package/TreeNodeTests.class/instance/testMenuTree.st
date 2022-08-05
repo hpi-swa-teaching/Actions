@@ -3,8 +3,8 @@ testMenuTree
 	|tree menu actionNode actionGroupNode|
 	
 	tree := ATreeNode seperator.
-	actionNode := ATreeNode value: (AAction from: MockActions mockActionMoveUpAsList).
-	actionGroupNode := ATreeNode value: ((AActionGroup named: #TestGroup) addAction: (AAction from: MockActions mockActionMoveDownAsList)).
+	actionNode := ATreeNode value: (AAction from: AMockActions mockActionMoveUpAsList).
+	actionGroupNode := ATreeNode value: ((AActionGroup named: #TestGroup) addAction: (AAction from: AMockActions mockActionMoveDownAsList)).
 	menu := MenuMorph new.
 	tree addChild: actionNode.
 	tree addChild: actionGroupNode.

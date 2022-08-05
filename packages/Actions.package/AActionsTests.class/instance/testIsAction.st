@@ -3,5 +3,5 @@ testIsAction
 
 	| action |
 	
-	action:= MockActionsD actionOne.
+	action:= AMockActionsMethodWithoutPragma actionOne.
 	self assert: (ATestAActions testIfIsAction: action)

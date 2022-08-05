@@ -1,4 +1,4 @@
 initilization
 testOneClassProvidingAnAction
 
-	self assert: (ATestAActions classesProviding: MockActionsE actions first) keys equals: {MockActionsE}
+	self assert: (ATestAActions classesProviding: AMockActionsAddAsList actions first) keys equals: {AMockActionsAddAsList}

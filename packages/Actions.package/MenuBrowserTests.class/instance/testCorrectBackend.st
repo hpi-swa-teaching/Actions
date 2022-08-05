@@ -1,6 +1,6 @@
 opening
 testCorrectBackend
 
-	self assert: (self menuBrowser aactionsApi) equals: AActions
+	self assert: (self menuBrowser aactionsApi) equals: ATestAActions 
 
 	

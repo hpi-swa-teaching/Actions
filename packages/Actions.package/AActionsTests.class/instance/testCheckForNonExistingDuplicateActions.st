@@ -1,5 +1,5 @@
 duplicate checks
 testCheckForNonExistingDuplicateActions
 
-	self assert: (ATestAActions checkIfDuplicatesExistsFor: MockActionsC) equals: nil
+	self assert: (ATestAActions checkIfDuplicatesExistsFor: AMockActionsMoveUpToo) equals: nil
 	

@@ -3,13 +3,13 @@ testClassesWithAnActionAtAnEventKey
 	
 	| classes |
 	ATestAActions 
-		addShortcut: self shortcutCtrlb for: MockActions moveUpAction in: MockActionsA;
-		addShortcut: self shortcutCtrlb for: MockActions moveUpAction in: MockActionsB.
+		addShortcut: self shortcutCtrlb for: AMockActions moveUpAction in: AMockActionAddLineAsList  ;
+		addShortcut: self shortcutCtrlb for: AMockActions moveUpAction in: AMockActionsMoveUpDuplicate.
 	
-	classes := ATestAActions classesWith: MockActions moveUpAction at: self shortcutCtrlb.
+	classes := ATestAActions classesWith: AMockActions moveUpAction at: self shortcutCtrlb.
 	
 	self 
 		assert: classes size equals: 2;
-		assert: classes first equals: MockActionsA;
-		assert: classes second equals: MockActionsB.
+		assert: classes first equals: AMockActionAddLineAsList;
+		assert: classes second equals: AMockActionsMoveUpDuplicate.
 	

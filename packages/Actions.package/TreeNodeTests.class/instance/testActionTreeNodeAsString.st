@@ -3,7 +3,7 @@ testActionTreeNodeAsString
 
 	| treeNode action|
 	
-	action:= MockActionsD actionOne.
+	action:= AMockActionsMethodWithoutPragma actionOne.
 	treeNode:= ATreeNode value: action.
 	self assert: (treeNode asString) equals: action title
 

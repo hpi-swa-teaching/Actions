@@ -6,21 +6,21 @@ testAddAndRemoveShortcut
 	shortcut1 := self shortcutCtrlb.
 	shortcut2 := self shortcutCtrld.
 		
-	action1 := AAction from: MockActionsA mockActionMoveUpAsList.
-	action2 := AAction from: MockActionsA mockActionMoveDownAsList.
+	action1 := AAction from: AMockActionsMoveUpDuplicate mockActionMoveUpAsList.
+	action2 := AAction from: AMockActionsMoveUpDuplicate mockActionMoveDownAsList.
 	
-	ATestAActions addShortcut: shortcut1 for: action1 in: MockActionsA.
-	ATestAActions addShortcut: shortcut2 for: action2 in: MockActionsA.
+	ATestAActions addShortcut: shortcut1 for: action1 in: AMockActionsMoveUpDuplicate.
+	ATestAActions addShortcut: shortcut2 for: action2 in: AMockActionsMoveUpDuplicate.
 	
-	self assert: (ATestAActions shortcutsFor: action1 in: MockActionsA ifAbsent: []) first equals: shortcut1.
-	self assert: (ATestAActions shortcutsFor: action2 in: MockActionsA ifAbsent: []) first equals: shortcut2.
+	self assert: (ATestAActions shortcutsFor: action1 in: AMockActionsMoveUpDuplicate ifAbsent: []) first equals: shortcut1.
+	self assert: (ATestAActions shortcutsFor: action2 in: AMockActionsMoveUpDuplicate ifAbsent: []) first equals: shortcut2.
 	
-	ATestAActions removeShortcut: shortcut1 in: MockActionsA.
-	self assert: (ATestAActions shortcutsFor: action1 in: MockActionsA ifAbsent: []) equals: nil.
-	self assert: (ATestAActions shortcutsFor: action2 in: MockActionsA ifAbsent: []) first equals: shortcut2.
+	ATestAActions removeShortcut: shortcut1 in: AMockActionsMoveUpDuplicate.
+	self assert: (ATestAActions shortcutsFor: action1 in: AMockActionsMoveUpDuplicate ifAbsent: []) equals: nil.
+	self assert: (ATestAActions shortcutsFor: action2 in: AMockActionsMoveUpDuplicate ifAbsent: []) first equals: shortcut2.
 
 	ATestAActions removeShortcuts.
-	self assert: (ATestAActions shortcutsFor: action1 in: MockActionsA ifAbsent: []) equals: nil.
-	self assert: (ATestAActions shortcutsFor: action2 in: MockActionsA ifAbsent: []) equals: nil.
+	self assert: (ATestAActions shortcutsFor: action1 in: AMockActionsMoveUpDuplicate ifAbsent: []) equals: nil.
+	self assert: (ATestAActions shortcutsFor: action2 in: AMockActionsMoveUpDuplicate ifAbsent: []) equals: nil.
 		
 	

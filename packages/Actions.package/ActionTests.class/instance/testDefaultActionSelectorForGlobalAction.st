@@ -1,4 +1,4 @@
 global actions
 testDefaultActionSelectorForGlobalAction
 
-	self assert: AMockGlobalActionsB globalRemoveAction action equals: #remove
+	self assert: AMockGlobalRemoveActions globalRemoveAction action equals: #remove

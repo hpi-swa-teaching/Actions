@@ -1,9 +1,9 @@
 shortcuts
 addShortcutCtrldForAction
 	| actionA |
-	actionA := MockActions moveUpAction
-		clazz: MockActionsA;
+	actionA := AMockActions moveUpAction
+		clazz: AMockActionsMoveUpDuplicate;
 		yourself.
-	ATestAActions addShortcut: self shortcutCtrld for: actionA in: MockActionsA.
+	ATestAActions addShortcut: self shortcutCtrld for: actionA in: AMockActionsMoveUpDuplicate.
 	self assert: actionA shortcuts first equals: self shortcutCtrld.
 	^ actionA

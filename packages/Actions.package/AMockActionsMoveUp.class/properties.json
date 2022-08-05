@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "AMockGlobalActionsB",
+	"name" : "AMockActionsMoveUp",
 	"pools" : [
 		 ],
-	"super" : "MockActions",
+	"super" : "AMockActions",
 	"type" : "normal" }

@@ -5,10 +5,10 @@ testAddAndResetShortcut
 	
 	shortcut1 := self shortcutCtrlb.
 		
-	action1 := AAction from: MockActionsA mockActionMoveUpAsList.
+	action1 := AAction from: AMockActionsMoveUpDuplicate mockActionMoveUpAsList.
 	
-	ATestAActions addShortcut: shortcut1 for: action1 in: MockActionsA.
-	self assert: (ATestAActions shortcutsFor: action1 in: MockActionsA ifAbsent: []) first equals: shortcut1.
+	ATestAActions addShortcut: shortcut1 for: action1 in: AMockActionsMoveUpDuplicate.
+	self assert: (ATestAActions shortcutsFor: action1 in: AMockActionsMoveUpDuplicate ifAbsent: []) first equals: shortcut1.
 	
-	ATestAActions resetLocalDefaultShortcutsFor: MockActionsA.
-	self assert: (ATestAActions shortcutsFor: action1 in: MockActionsA ifAbsent: []) equals: nil.
+	ATestAActions resetLocalDefaultShortcutsFor: AMockActionsMoveUpDuplicate.
+	self assert: (ATestAActions shortcutsFor: action1 in: AMockActionsMoveUpDuplicate ifAbsent: []) equals: nil.

@@ -3,5 +3,5 @@ testActionWithoutShortcutRepresentation
 
 	| action |
 	
-	action := (MockActionsD actions first).
+	action := (AMockActionsMethodWithoutPragma actions first).
 	self assert: action shortcutRepresentation equals: ''.
