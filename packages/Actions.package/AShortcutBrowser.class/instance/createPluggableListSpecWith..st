@@ -11,5 +11,5 @@ createPluggableListSpecWith: aToolBuilder
 		menu: #actionMenu:;
 		autoDeselect: false;
 		helpItem: #helpForItem:;
-		frame: (0@0.06 corner: 1@1);
+		frame: self positionRightSide;
 		yourself

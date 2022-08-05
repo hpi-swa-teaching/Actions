@@ -2,4 +2,4 @@ initialization
 initializeStyle
 
 	self color: Color transparent.
-	self extent: 180@50
+	self extent: self positionTextBox

@@ -15,7 +15,7 @@ buildWith: aToolBuilder
 		getIndex: #classIndex; 
 		setIndex: #classIndex:; 
 		helpItem: #itemName:;
-		frame: (0@0 corner: 0.25@1).
+		frame: self positionLeftSideClassList.
 		
 	mainListSpec := self createMainListSpecWith: aToolBuilder.
 		

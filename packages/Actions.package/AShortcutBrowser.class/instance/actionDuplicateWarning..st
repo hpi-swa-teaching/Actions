@@ -12,7 +12,7 @@ browseActionsButton action: [self browse: aAction For: self selectedClass. windo
 window title: 'Warning'.
 window message: 'You assigned the name "' , aAction title asString , '" to different actions
 '.
-window updateButtonExtent: 110@15.
+window updateButtonExtent: self sizeButton.
 
 window openAsTool.
 

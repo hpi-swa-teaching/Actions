@@ -4,7 +4,7 @@
 	"instance" : {
 		"aactionsApi" : "KK 6/6/2022 23:49",
 		"actions" : "KK 6/6/2022 23:49",
-		"buildWith:" : "TA 7/14/2022 10:41",
+		"buildWith:" : "ft 8/5/2022 16:10",
 		"classIndex" : "WoC 9/26/2020 13:49",
 		"classIndex:" : "WoC 9/26/2020 18:53",
 		"classNames" : "MaCl 8/4/2022 09:56",
@@ -17,6 +17,7 @@
 		"initialize" : "MaCl 5/21/2022 10:49",
 		"itemName:" : "TA 7/14/2022 11:44",
 		"mainView" : "WoC 9/26/2020 18:55",
+		"positionLeftSideClassList" : "ft 8/5/2022 16:10",
 		"selectedClass" : "WoC 9/30/2020 02:04",
 		"update:" : "WoC 9/30/2020 11:32",
 		"windowLabel" : "WoC 9/26/2020 13:48" } }
