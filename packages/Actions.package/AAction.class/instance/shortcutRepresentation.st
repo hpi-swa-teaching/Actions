@@ -10,4 +10,3 @@ shortcutRepresentation
 				stream contents]) 
 			joinSeparatedBy: ', ' ) , ')'] 
 		ifFalse: [^ '']
-	
